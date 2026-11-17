@@ -1,0 +1,5 @@
+{
+  "repeat_of": "P-E1-FAST-HUM-FULL-r1",
+  "code_and_parameters": "unchanged",
+  "reason": "final candidate repeat; fresh worker/cache; original150 ordered0.45QPS"
+}

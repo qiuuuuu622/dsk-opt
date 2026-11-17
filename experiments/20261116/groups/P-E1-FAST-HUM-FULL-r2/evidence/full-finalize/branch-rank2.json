@@ -1,0 +1,282 @@
+{
+  "language_model.model.layers.0.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.1.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.2.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.3.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.4.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.5.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.6.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.7.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.8.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.9.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.10.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.11.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.12.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.13.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.14.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.15.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.16.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.17.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.18.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.19.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.20.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.21.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.22.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.23.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.24.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.25.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.26.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.27.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.28.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.29.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.30.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.31.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.32.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.33.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.34.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.35.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.36.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.37.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.38.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  },
+  "language_model.model.layers.39.ffn.experts": {
+    "rows": 64,
+    "scale": 1.0,
+    "shared_fused": true,
+    "async_wait_at_finalizer": true,
+    "before_EP_reduce": true
+  }
+}

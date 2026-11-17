@@ -1,0 +1,78 @@
+{
+  "scope": "post-timing3request trace, not whole150 hit rate",
+  "all_four_on_eight_ranks": true,
+  "ranks": [
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-ALL-r1/traces/P-E1-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp0_dcp0_ep0_rank0.1794825997525152291.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-ALL-r1/traces/P-E1-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp1_dcp0_ep1_rank1.1794825997550281986.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-ALL-r1/traces/P-E1-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp7_dcp0_ep7_rank7.1794825997555924291.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-ALL-r1/traces/P-E1-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp5_dcp0_ep5_rank5.1794825997562938340.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-ALL-r1/traces/P-E1-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp2_dcp0_ep2_rank2.1794825997553517293.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-ALL-r1/traces/P-E1-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp3_dcp0_ep3_rank3.1794825997570680635.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-ALL-r1/traces/P-E1-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp6_dcp0_ep6_rank6.1794825997563041685.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-ALL-r1/traces/P-E1-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp4_dcp0_ep4_rank4.1794825997610666491.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    }
+  ]
+}

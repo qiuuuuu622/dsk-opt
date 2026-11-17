@@ -1,0 +1,7 @@
+{
+  "torch": "2.11.0+cu130",
+  "triton": "3.7.1",
+  "humming-kernels": "0.1.17",
+  "nvidia-nccl-cu13": "2.28.9",
+  "fastokens": "0.3.6"
+}

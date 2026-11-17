@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "completed": [
+    "P-FAST-GC-ALL-r2",
+    "P-FAST-HUM-ALL-r1"
+  ],
+  "time": 1794825035.4295256,
+  "service_retained": "P-FAST-HUM-ALL-r1"
+}

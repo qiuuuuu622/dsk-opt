@@ -1,0 +1,8 @@
+{
+  "pid": 480353,
+  "kind": "backend",
+  "version": "0.3.6",
+  "time": 1794824653.9768739,
+  "tokenizer_class": "<class 'transformers.tokenization_utils_tokenizers.TokenizersBackend'>",
+  "backend_class": "<class 'fastokens._ConfiguredTokenizerShim'>"
+}

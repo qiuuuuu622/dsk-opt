@@ -1,0 +1,18 @@
+{
+  "source_group": "P-E1-FAST-HUM-FULL-r2",
+  "pids": {
+    "frontend": 498462,
+    "worker": 498463,
+    "replay_launcher": 498464
+  },
+  "plan": "originalfirst150",
+  "batch_requests": 150,
+  "intrabatch_qps": 0.45,
+  "cache": "warm, no reset between batches",
+  "phases_min_seconds": [
+    1800,
+    7200
+  ],
+  "stop": "finish each150 then assess; errors halt subsequent phases",
+  "not_cold_performance_comparison": true
+}

@@ -1,0 +1,179 @@
+{
+  "objective": "四类优化可插拔接入及端到端A/B",
+  "status": "active",
+  "phase": "最终候选两轮150条完成；30分钟随后2小时长稳态进行中",
+  "steps": [
+    {
+      "id": "P0",
+      "task": "冻结基线与实际dtype审计",
+      "state": "completed",
+      "remaining": "基线A1及实际dtype审计完成；证据见组目录"
+    },
+    {
+      "id": "P1",
+      "task": "GC八卡正确性与生命周期",
+      "state": "completed",
+      "remaining": "八卡原生GC26case/Graph生命周期及160个服务adapter对照、320图更新检查已通过；r4及fastokensGC完整150成功"
+    },
+    {
+      "id": "P2",
+      "task": "Humming/indexer/head-row正确性及默认关闭接入",
+      "state": "completed",
+      "remaining": "默认关闭W4A8/tiled/full shared收尾、compact/headrow已接入；安全范围外原生回退。八卡边界测试、40层分支审计及完整150条成功，trace确认每rank省800次独立shared add"
+    },
+    {
+      "id": "P3",
+      "task": "单项150条A/B及质量",
+      "state": "partial",
+      "remaining": "已执行原生/W4A8/W4A8+tiled/组合；按用户要求跳过逐项冗余E2E；新增fastokens两组已完成"
+    },
+    {
+      "id": "P4",
+      "task": "GC同环境服务兼容与对照",
+      "state": "completed",
+      "remaining": "E1完整GC服务及P-E1-FAST-HUM-ALL-r1同环境Humming对照均150/150成功，八卡路径已核验；纯内核因果归因不在本对照证明范围"
+    },
+    {
+      "id": "P5",
+      "task": "组合与稳定性",
+      "state": "partial",
+      "remaining": "Humming组合两轮及fastokens/GC组合已完成；尚无满足全部延迟稳定性门槛的获胜方案，最终稳定性/收尾审计待完成"
+    }
+  ],
+  "gates": {
+    "gc_readiness_max_abs": 0.0,
+    "gc_routed_bf16_cosine_min": 0.97,
+    "gc_processed_diff_max": 0.002,
+    "gc_shared_processed_cosine_min": 0.99,
+    "output_fusion_same_precision": "bitwise equality",
+    "performance": "主指标重复改善>=5%，另一主指标回退<=3%；P99重复回退<=5%；质量优先"
+  },
+  "notes": [
+    "阈值沿用上游GC测试，在第一次正确性执行前已确定",
+    "不将纯Python量化工具桥接称为DeepGEMM基线",
+    "隔离ptxas13.2实测无法汇编PTX9.4，复测使用隔离13.4.92",
+    "尚无新增端到端优化结果",
+    "A1全关150/150完成，P95 TTFT11473.493ms、TPOT12.772ms/token、E2E31566.825ms；输出吞吐491.705tok/s；无优化收益结论",
+    "cache_salt探针a,a,b,b的cached_tokens为0,2112,2112,2112，当前Dynamo路径未隔离；后续按组重启以统一起始缓存",
+    "Q0-native-r1 worker343567/frontend343566，温度0 seed1234保存输出；与生产性能统计分开",
+    "用户确认无业务标签，按成对输出/工具格式/空输出/循环/截断验证；当前服务正文为DSML，已新增离线DSML检查，不能仅检查OpenAI tool_calls字段。",
+    "Q0-native-r1：150/150成功，170 DSML调用，零空输出/截断/结构告警；190212输出tokens；已停止服务",
+    "QH2-finalize-r1：worker350032/frontend350031/replay350034；FINALIZE=1 A8=0；等待加载后前150条质量回放，结果未出",
+    "QH2：150/150成功，172 DSML调用，无新增结构告警，8rank精度配置与Q0一致；完整文本150/150不同，尚未质量放行，Q0-r2将增加只读实际sampling参数审计",
+    "Indexer接入初版已编写且CPU AST/源码指纹/注册身份检查通过；尚未服务部署。池化工作区测试PID356789，9档rows/4消费者/变化输入Graph20步，各rank独立参考",
+    "Indexer池化测试首次因venv无torchrun入口未启动，改python -m torch.distributed.run后8rank×9shape×4consumer×20步共5760次topk集合一致；完整退出码0",
+    "Q0-r2首次审计启动器缺少main guard导致子进程重复打开日志，0请求失败启动已归档；r2b修复后worker357816/frontend357815正常启动，实际SamplingParams temperature0 seed1234 top_p1 max_tokens16384",
+    "GC jobs2构建完成约45/458步骤后主动停止保留增量产物；jobs8 PID359035，CPU32核/800GiB配额，CUDA_VISIBLE_DEVICES为空；正式性能测试不能与编译同时运行",
+    "用户要求W4A8优先，BF16激活仅作必要原生对照，不再追加H2；暂停GC编译PID359035进程组，后续恢复，不是暂停整体Goal。",
+    "此前notes是历史事件；当前phase/steps及各组原始结果优先。GC运行依赖采用有效import优先级取版本，保留主环境Pydantic2.14.1/PyJWT2.15.1。"
+  ],
+  "priority_order": [
+    "H1 W4A8质量及实际dtype审计",
+    "原生W4A16 vs W4A8正式性能A/B",
+    "H3 W4A8+输出融合",
+    "H4 W4A8+完整shared收尾融合",
+    "Indexer/head-row/GC及组合稳定性"
+  ],
+  "execution_policy": "fast_screen: reuse existing native baseline; one 150-request run per optimization combining performance and output checks; repeat only for ambiguity/anomaly/final candidate",
+  "cancelled_pending_repeats": [
+    "P-A0-r1",
+    "P-A0-r2",
+    "P-A0-r3",
+    "P-H1-a8-r2",
+    "P-H1-a8-r3"
+  ],
+  "current_group": "P-E1-FAST-HUM-FULL-r2",
+  "current_status": "long_stability_running",
+  "current_worker_pid": 498463,
+  "last_completed_group": "P-E1-FAST-HUM-FULL-r2",
+  "reason": "Completion audit found missing same-E1 control and stale phase/PID metadata; user fast-screen constraint retained",
+  "work_phase": "最终候选两轮150条完成；30分钟随后2小时长稳态进行中",
+  "gc_build_pid": null,
+  "gc_build_status": "completed_exit0",
+  "gc_runtime_resolver_pid": null,
+  "gc_runtime_controller_pid": null,
+  "gc_runtime_status": "Triton3.7.1 installed; GC+finalize and indexer short checks passed",
+  "updated_at": "2026-11-16T11:26:15.034528+00:00",
+  "gc_runtime_installer_pid": null,
+  "gc_compiled_extension_linkage": "passed_two_stable_libtorch_extensions_cpu_only",
+  "gc_integration_contract": "audited_8_ranks_40_target_3_draft",
+  "current_frontend_pid": 498462,
+  "gc_post_analysis_pid": null,
+  "gc_service_controller_pid": null,
+  "gc_combined_latest": {
+    "group": "P-GC-ALL-w4a8-r4",
+    "success": 150,
+    "failed": 0,
+    "triton": "3.7.1",
+    "worker": 462406,
+    "frontend": 462405,
+    "four_paths_verified": true,
+    "quality": "structural_proxy_pass",
+    "conclusion": "latency_regression_cross_environment_single_run",
+    "p95": {
+      "ttft_ms": 15067.236883164154,
+      "tpot_ms_per_token": 32.877636678430235,
+      "e2e_ms": 88212.7148363041
+    }
+  },
+  "goal_additional_required_work": {
+    "requested": "2026-11-16",
+    "status": "completed",
+    "items": [
+      {
+        "group": "P-FAST-GC-ALL-r2",
+        "baseline": "P-GC-ALL-w4a8-r4",
+        "status": "completed"
+      },
+      {
+        "group": "P-FAST-HUM-ALL-r1",
+        "baseline": "P-ALL-w4a8-stride-r2",
+        "status": "completed"
+      }
+    ],
+    "workload": "original first150 ordered 0.45QPS drain"
+  },
+  "retained_service": {
+    "group": "P-E1-FAST-HUM-FULL-r2",
+    "frontend": 498462,
+    "worker": 498463,
+    "port": 8000,
+    "status": "under_long_stability_load"
+  },
+  "same_environment_control": {
+    "status": "completed",
+    "group": "P-E1-FAST-HUM-ALL-r1",
+    "reference_GC": "P-FAST-GC-ALL-r2",
+    "reference_Humming_E0": "P-FAST-HUM-ALL-r1",
+    "success": 150,
+    "errors": 0
+  },
+  "next_required_work": [
+    "完成30分钟及2小时长稳态（监控进程503556，不重复启动）",
+    "长稳态证据/热降频增量核验",
+    "最终恢复主环境原生服务并核验关闭路径",
+    "完成总报告与逐项完成审计"
+  ],
+  "stability": {
+    "controller_pid": 503556,
+    "thermal_monitor_pid": 504043,
+    "path": "/root/dsk_opt_goal_20261116/stability/full-final-candidate",
+    "last_observed_state": {
+      "status": "running",
+      "controller_pid": 503556,
+      "service_pids": {
+        "frontend": 498462,
+        "worker": 498463,
+        "replay_launcher": 498464
+      },
+      "completed_phases": [],
+      "time": 1794828355.122417,
+      "phase": "30min",
+      "batch": 2,
+      "replay_pid": 504199,
+      "finished_requests": 162,
+      "phase_elapsed": 425.76975815201877
+    },
+    "status": "running"
+  }
+}

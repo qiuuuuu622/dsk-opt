@@ -1,0 +1,41 @@
+{
+  "requested": 150,
+  "finished": 150,
+  "success": 150,
+  "failed": 0,
+  "elapsed_sec": 385.07853545004036,
+  "successful_qps": 0.3895309299041957,
+  "reported_output_tokens_per_sec": 493.95638159291246,
+  "requests_with_token_usage": 150,
+  "ttft_ms": {
+    "n": 150,
+    "mean": 3101.350981062278,
+    "p50": 1027.1694749826565,
+    "p90": 9772.79155011638,
+    "p95": 12016.576869314304,
+    "p99": 13706.89834419113
+  },
+  "tpot_ms_per_token": {
+    "n": 150,
+    "mean": 6.965483335802698,
+    "p50": 6.474133368000311,
+    "p90": 10.092117091994014,
+    "p95": 13.55476356904869,
+    "p99": 18.160751495432038
+  },
+  "e2e_ms": {
+    "n": 150,
+    "mean": 11493.136838641562,
+    "p50": 7260.862229508348,
+    "p90": 23478.74605581164,
+    "p95": 34727.88958674065,
+    "p99": 56282.04479124905
+  },
+  "definitions": {
+    "ttft": "HTTP request start to first nonempty content, reasoning, or tool-call delta; role-only chunks excluded",
+    "e2e": "HTTP request start to stream completion",
+    "tpot": "(E2E - TTFT)/(server completion_tokens - 1); absent if usage missing or completion_tokens <= 1",
+    "percentiles": "linear interpolation across successful requests; missing samples excluded and n reported",
+    "streaming": "A streamed chunk can contain multiple tokens, especially with speculative decoding; TPOT is request-average, not per-token ITL"
+  }
+}

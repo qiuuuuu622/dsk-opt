@@ -1,0 +1,12 @@
+{
+  "state": "prepared_not_started",
+  "kind": "single combined performance/output-format run",
+  "A8": true,
+  "finalize": true,
+  "shared_fusion": false,
+  "first_requests": 150,
+  "qps": 0.45,
+  "sampling": "original registry, no overrides",
+  "quality": "same-precision finalizer unit tests already passed; save outputs and check structure in same performance replay",
+  "gate": "review W4A8 single-run result first"
+}

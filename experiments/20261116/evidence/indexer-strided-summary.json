@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rank_shapes": 72,
+  "consumer_graph_comparisons": 5760,
+  "cache_page_stride": 116928,
+  "reference": "same cache bytes in contiguous layout, validated compact operator",
+  "test": "padded backing filled with165 to expose accidental padding reads"
+}

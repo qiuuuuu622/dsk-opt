@@ -1,0 +1,15 @@
+{
+  "state": "prepared_not_started",
+  "optimization": "compact FP8 indexer decode/verify only; native prefill/source selection",
+  "humming_flags": {
+    "A8": 0,
+    "FINALIZE": 0
+  },
+  "quality": {
+    "first_requests": 150,
+    "qps": 0.45,
+    "temperature": 0,
+    "seed": 1234
+  },
+  "prerequisite": "finish native repeat and inspect effective sampling audit; verify runtime path hit"
+}

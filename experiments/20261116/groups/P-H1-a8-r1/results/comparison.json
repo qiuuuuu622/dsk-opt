@@ -1,0 +1,131 @@
+{
+  "group": "P-H1-a8-r1",
+  "baseline": "A1-off-r1",
+  "scope": "single-run quick screen against existing baseline; not statistical significance",
+  "success": 150,
+  "failed": 0,
+  "latency": [
+    {
+      "metric": "ttft_ms",
+      "stat": "mean",
+      "baseline": 3002.183620726379,
+      "candidate": 2737.8907623044993,
+      "change_percent": -8.803354218484948
+    },
+    {
+      "metric": "ttft_ms",
+      "stat": "p50",
+      "baseline": 1054.8175644944422,
+      "candidate": 915.2736520336475,
+      "change_percent": -13.22919878829245
+    },
+    {
+      "metric": "ttft_ms",
+      "stat": "p90",
+      "baseline": 9546.883461315883,
+      "candidate": 8525.976614817044,
+      "change_percent": -10.693613791721345
+    },
+    {
+      "metric": "ttft_ms",
+      "stat": "p95",
+      "baseline": 11473.49260172632,
+      "candidate": 10542.944256245393,
+      "change_percent": -8.110419187797401
+    },
+    {
+      "metric": "ttft_ms",
+      "stat": "p99",
+      "baseline": 13601.146937580768,
+      "candidate": 12677.606137834946,
+      "change_percent": -6.790168534934537
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "mean",
+      "baseline": 7.231186051992763,
+      "candidate": 6.117632049498662,
+      "change_percent": -15.399327226371518
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "p50",
+      "baseline": 6.67877136304844,
+      "candidate": 5.837086895931129,
+      "change_percent": -12.602384800505217
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "p90",
+      "baseline": 10.313251356843221,
+      "candidate": 8.921296324179966,
+      "change_percent": -13.49676241275397
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "p95",
+      "baseline": 12.772268215267976,
+      "candidate": 10.390865904220922,
+      "change_percent": -18.64510101815999
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "p99",
+      "baseline": 18.03899535199916,
+      "candidate": 14.034249597373725,
+      "change_percent": -22.200492191942445
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "mean",
+      "baseline": 11660.4403150784,
+      "candidate": 11025.618831362031,
+      "change_percent": -5.444232520923464
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "p50",
+      "baseline": 7704.318785021314,
+      "candidate": 6531.53930301778,
+      "change_percent": -15.222364426088442
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "p90",
+      "baseline": 22206.489795126232,
+      "candidate": 23316.104743618038,
+      "change_percent": 4.996804802240007
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "p95",
+      "baseline": 31566.825090424405,
+      "candidate": 35404.51809632365,
+      "change_percent": 12.157361390973032
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "p99",
+      "baseline": 62356.58908445204,
+      "candidate": 51799.29474086729,
+      "change_percent": -16.93051929008911
+    }
+  ],
+  "output_tokens": {
+    "baseline": 185443,
+    "candidate": 200388
+  },
+  "output_tokens_per_sec": {
+    "baseline": 491.7051828137764,
+    "candidate": 535.7264504075898
+  },
+  "elapsed_seconds": {
+    "baseline": 377.1426588160102,
+    "candidate": 374.0491063070367
+  },
+  "caveats": [
+    "Original temperature0.8 sampling gives varying generated lengths",
+    "Profiler configured but disabled during candidate timed replay; baseline lacked profiler configuration",
+    "GC compile suspended during candidate timed replay"
+  ]
+}

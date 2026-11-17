@@ -1,0 +1,10 @@
+{
+  "baseline": "P-GC-ALL-w4a8-r4",
+  "fastokens": "0.3.6",
+  "VLLM_USE_FASTOKENS": "1",
+  "DYN_TOKENIZER": "fastokens",
+  "DYN_TOKENIZER_FALLBACK": "false",
+  "worker_and_frontend": true,
+  "other_parameters": "unchanged from own baseline",
+  "Humming_finalize": "existing tiled finalize only; GC has scale/shared fusion"
+}

@@ -1,0 +1,119 @@
+{
+  "scope": "post-timing three-request diagnostic; not whole150 hit rate",
+  "ranks": [
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-GC-ALL-w4a8-r4/traces/P-GC-ALL-w4a8-r4-kernel-proof_dp0_pp0_tp4_dcp0_ep4_rank4.1794823275516523416.pt.trace.json.gz",
+      "counts": {
+        "GC_input_staging": 800,
+        "GC_output_scale_shared_fusion": 800,
+        "compact_scores": 80,
+        "candidate_publish": 20,
+        "headrow_exchange": 1600,
+        "native_GC_role_kernels": 2400
+      },
+      "possible_native_GC_symbols": [
+        "kernel_cutlass_kernel_gc_moeimplssm90_fp8_fp4_gc_moeSM90GCMoERoleKernel_object_at__ptri8gmemalign16_ptri64gmemalign16_ptrbf16gmemalign16_ptri8gmemalign16_ptri8gmemalign16_ptrf32gmemalign1_0"
+      ]
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-GC-ALL-w4a8-r4/traces/P-GC-ALL-w4a8-r4-kernel-proof_dp0_pp0_tp6_dcp0_ep6_rank6.1794823275523454650.pt.trace.json.gz",
+      "counts": {
+        "GC_input_staging": 800,
+        "GC_output_scale_shared_fusion": 800,
+        "compact_scores": 80,
+        "candidate_publish": 20,
+        "headrow_exchange": 1600,
+        "native_GC_role_kernels": 2400
+      },
+      "possible_native_GC_symbols": [
+        "kernel_cutlass_kernel_gc_moeimplssm90_fp8_fp4_gc_moeSM90GCMoERoleKernel_object_at__ptri8gmemalign16_ptri64gmemalign16_ptrbf16gmemalign16_ptri8gmemalign16_ptri8gmemalign16_ptrf32gmemalign1_0"
+      ]
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-GC-ALL-w4a8-r4/traces/P-GC-ALL-w4a8-r4-kernel-proof_dp0_pp0_tp7_dcp0_ep7_rank7.1794823275525066618.pt.trace.json.gz",
+      "counts": {
+        "GC_input_staging": 800,
+        "GC_output_scale_shared_fusion": 800,
+        "compact_scores": 80,
+        "candidate_publish": 20,
+        "headrow_exchange": 1600,
+        "native_GC_role_kernels": 2400
+      },
+      "possible_native_GC_symbols": [
+        "kernel_cutlass_kernel_gc_moeimplssm90_fp8_fp4_gc_moeSM90GCMoERoleKernel_object_at__ptri8gmemalign16_ptri64gmemalign16_ptrbf16gmemalign16_ptri8gmemalign16_ptri8gmemalign16_ptrf32gmemalign1_0"
+      ]
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-GC-ALL-w4a8-r4/traces/P-GC-ALL-w4a8-r4-kernel-proof_dp0_pp0_tp1_dcp0_ep1_rank1.1794823275542976540.pt.trace.json.gz",
+      "counts": {
+        "GC_input_staging": 800,
+        "GC_output_scale_shared_fusion": 800,
+        "compact_scores": 80,
+        "candidate_publish": 20,
+        "headrow_exchange": 1600,
+        "native_GC_role_kernels": 2400
+      },
+      "possible_native_GC_symbols": [
+        "kernel_cutlass_kernel_gc_moeimplssm90_fp8_fp4_gc_moeSM90GCMoERoleKernel_object_at__ptri8gmemalign16_ptri64gmemalign16_ptrbf16gmemalign16_ptri8gmemalign16_ptri8gmemalign16_ptrf32gmemalign1_0"
+      ]
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-GC-ALL-w4a8-r4/traces/P-GC-ALL-w4a8-r4-kernel-proof_dp0_pp0_tp2_dcp0_ep2_rank2.1794823275543859201.pt.trace.json.gz",
+      "counts": {
+        "GC_input_staging": 800,
+        "GC_output_scale_shared_fusion": 800,
+        "compact_scores": 80,
+        "candidate_publish": 20,
+        "headrow_exchange": 1600,
+        "native_GC_role_kernels": 2400
+      },
+      "possible_native_GC_symbols": [
+        "kernel_cutlass_kernel_gc_moeimplssm90_fp8_fp4_gc_moeSM90GCMoERoleKernel_object_at__ptri8gmemalign16_ptri64gmemalign16_ptrbf16gmemalign16_ptri8gmemalign16_ptri8gmemalign16_ptrf32gmemalign1_0"
+      ]
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-GC-ALL-w4a8-r4/traces/P-GC-ALL-w4a8-r4-kernel-proof_dp0_pp0_tp5_dcp0_ep5_rank5.1794823275536481603.pt.trace.json.gz",
+      "counts": {
+        "GC_input_staging": 800,
+        "GC_output_scale_shared_fusion": 800,
+        "compact_scores": 80,
+        "candidate_publish": 20,
+        "headrow_exchange": 1600,
+        "native_GC_role_kernels": 2400
+      },
+      "possible_native_GC_symbols": [
+        "kernel_cutlass_kernel_gc_moeimplssm90_fp8_fp4_gc_moeSM90GCMoERoleKernel_object_at__ptri8gmemalign16_ptri64gmemalign16_ptrbf16gmemalign16_ptri8gmemalign16_ptri8gmemalign16_ptrf32gmemalign1_0"
+      ]
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-GC-ALL-w4a8-r4/traces/P-GC-ALL-w4a8-r4-kernel-proof_dp0_pp0_tp0_dcp0_ep0_rank0.1794823275544467423.pt.trace.json.gz",
+      "counts": {
+        "GC_input_staging": 800,
+        "GC_output_scale_shared_fusion": 800,
+        "compact_scores": 80,
+        "candidate_publish": 20,
+        "headrow_exchange": 1600,
+        "native_GC_role_kernels": 2400
+      },
+      "possible_native_GC_symbols": [
+        "kernel_cutlass_kernel_gc_moeimplssm90_fp8_fp4_gc_moeSM90GCMoERoleKernel_object_at__ptri8gmemalign16_ptri64gmemalign16_ptrbf16gmemalign16_ptri8gmemalign16_ptri8gmemalign16_ptrf32gmemalign1_0"
+      ]
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-GC-ALL-w4a8-r4/traces/P-GC-ALL-w4a8-r4-kernel-proof_dp0_pp0_tp3_dcp0_ep3_rank3.1794823275560155089.pt.trace.json.gz",
+      "counts": {
+        "GC_input_staging": 800,
+        "GC_output_scale_shared_fusion": 800,
+        "compact_scores": 80,
+        "candidate_publish": 20,
+        "headrow_exchange": 1600,
+        "native_GC_role_kernels": 2400
+      },
+      "possible_native_GC_symbols": [
+        "kernel_cutlass_kernel_gc_moeimplssm90_fp8_fp4_gc_moeSM90GCMoERoleKernel_object_at__ptri8gmemalign16_ptri64gmemalign16_ptrbf16gmemalign16_ptri8gmemalign16_ptri8gmemalign16_ptrf32gmemalign1_0"
+      ]
+    }
+  ],
+  "native_GC_symbol_review": "Verified SM90GCMoERoleKernel native gc_moe kernel symbol on all 8 ranks; aggregated dispatch/routed/finalize role symbol, not compute-only count",
+  "all_four_paths_observed_on_eight_ranks": true
+}

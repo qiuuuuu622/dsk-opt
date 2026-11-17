@@ -1,0 +1,65 @@
+{
+  "status": "all_dynamo_python_sources_match_actual_main",
+  "changed": [
+    {
+      "path": "frontend/main.py",
+      "main_sha256": "e8eb3ccf25b35f33d76b700e652975f9046882528757be2f69cda945b4a58ab3",
+      "wheel_sha256": "4896b27c3b484bc10cbf4d7dae6cd62aeee2958307139252864c6935be49dbd2"
+    },
+    {
+      "path": "frontend/prepost.py",
+      "main_sha256": "a6f6567ed3f5e90bdd5bc457901ccd05b33d6155070a4f9aa59347cd2e9062f4",
+      "wheel_sha256": "b4b19442691a13a690fbf79aa5c05ebaa59a902b897e37db19ae23f56a3445bb"
+    },
+    {
+      "path": "frontend/tests/test_multimodal_utils.py",
+      "main_sha256": "9425a70783343dab419dbf60749c575b6de21615fc8a4673394e069cadcca344",
+      "wheel_sha256": "c73d65ea28e9b8b64c89b7d1d82ca1e0b548ae1b04fe41859e4e25ce42b5e9b2"
+    },
+    {
+      "path": "frontend/utils.py",
+      "main_sha256": "da45599e8b688203037025a969716440e75e1e98a2848fd61db43d369ef62854",
+      "wheel_sha256": "09460e4b907bf8d94db6fa9ed2302baf0cee4075cc21fbacc529e27cf265796d"
+    },
+    {
+      "path": "frontend/vllm_processor.py",
+      "main_sha256": "e45c90c685650c1c639bfd429e1b9174e2bd3e9e9a29cf77a005f5a280f381f5",
+      "wheel_sha256": "adf9d3195ce67f36e924fda325298b5df6f3dceda7762acb0c033d843ffcfbbb"
+    },
+    {
+      "path": "sglang/_compat.py",
+      "main_sha256": "0ed365215d5c1142f77efce01d7732bd86dbcec6b2a98addc8e271c9467f4bb9",
+      "wheel_sha256": "d0bf4084678a27a27303bdbb8bc371916d4e8a1165bc6a3ec44d4d4222a6bde6"
+    },
+    {
+      "path": "sglang/args.py",
+      "main_sha256": "2539373d244aa9aba184e1daeabcb70ee65c4bc5ecfaf09ea7edaaf097d69276",
+      "wheel_sha256": "a49ace5660436819b67ef914f49c39344f24b5ac6ac7a1f6212ee6dd5e1f9d3c"
+    },
+    {
+      "path": "sglang/backend_args.py",
+      "main_sha256": "857a0914b8a3bf65e374b9b6e887cf75b46acc2ca7b1672c6b341770dc0e2775",
+      "wheel_sha256": "96ac0eb06bfe7b5a1f4b62d8366ae1b49a75e00715e43a63ea09e3fe01441c79"
+    },
+    {
+      "path": "sglang/init_llm.py",
+      "main_sha256": "98710e6db80fbf9378482a00e96d895b1e362e888cdac0d623234e03112268b6",
+      "wheel_sha256": "fcd18e20e32678d7b249fde09471a11644f3e31b30f280533dd330d1f519cf76"
+    },
+    {
+      "path": "sglang/request_handlers/llm/mm_disagg_utils.py",
+      "main_sha256": "e1d01cb478e7eb67bbb6ef259c0217615841f46a7638ca3e3b269a889f4f23dc",
+      "wheel_sha256": "7089a4c7b3e16c478bc172dab618b3211458706f47f7dbed8d6ed3939f940a38"
+    },
+    {
+      "path": "vllm/embedding_worker_processes.py",
+      "main_sha256": "3f067b679158e4fad00ac2541df4c341904621bdfd7e7e59154c07896c35a711",
+      "wheel_sha256": "21e953a23a3b27623361ade3fcc224d93b194599436206980c9d77bff7db260f"
+    }
+  ],
+  "added": [
+    "sglang/tests/test_sglang_startup_warmup.py"
+  ],
+  "backup": "/root/gc_moe_isolated_20261116/src/dynamo-wheel-python-backup",
+  "binary_files_copied": false
+}

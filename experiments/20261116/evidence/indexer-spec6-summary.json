@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "rank_shapes": 72,
+  "consumer_graph_comparisons": 5760,
+  "scope": "B x next_n layout tested for next_n1 and6, existing independently verified compact operator used as reference"
+}

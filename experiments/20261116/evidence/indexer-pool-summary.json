@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "physical_ranks": 8,
+  "rank_shapes": 72,
+  "consumer_checks": 5760,
+  "changing_graph_steps_per_shape": 20,
+  "reference": "validated compact operator; this checks binding/workspace reuse, not an independent arithmetic reference",
+  "exit_code": 0
+}

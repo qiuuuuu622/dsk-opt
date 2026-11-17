@@ -1,0 +1,129 @@
+{
+  "rank": 6,
+  "passed": true,
+  "cases": [
+    {
+      "rows": 1,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 1,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 7,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 7,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 8,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 8,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 9,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 9,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 63,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 63,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 64,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 64,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 65,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 65,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 129,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 129,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 384,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 384,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 4096,
+      "weights": "a",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    },
+    {
+      "rows": 4096,
+      "weights": "b",
+      "native_gc_bitwise_equal": true,
+      "scale_shared_bitwise_equal": true
+    }
+  ],
+  "graph_steps": 20,
+  "graph_weight_sets": 2,
+  "scope": "replicated-row sharding, native GC equivalence, fused scale/shared and multi-layer shared workspace Graph"
+}

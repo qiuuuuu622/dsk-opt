@@ -1,0 +1,72 @@
+{"activation": "swiglu", "activation_alpha": 1.0, "activation_clamp": 10.0, "event": "config", "experts": 384, "fast_math": true, "gc_moe_calls_per_replay": 1, "hidden": 5120, "intermediate": 2304, "mode": "eager", "model": "dsv4.1-flash", "num_tokens_per_rank": 64, "rank": 5, "recipe": [1, 1, 32], "reference_repeats": 3, "requested_capacity_per_rank": 256, "seed": 20261010, "steps": 10, "test": "sm90_routed_fp8_fp4", "tolerance": 0.0, "topk": 6, "total_tokens": 512, "variant_seeds": [20300605, 21300608], "weight_seed": 20784655, "world_size": 8}
+{"allocated_capacity_per_rank": 256, "event": "addresses", "rank": 5, "tensors": {"active_expert": 248034362368, "active_ready": 248034362624, "combine": 248790320256, "combine_block_done": 248034363008, "compute_ready": 248034362880, "expert_count": 248034361856, "expert_ready": 248034361600, "header": 248034361344, "l1_acts": 248037704832, "l1_acts_sf": 248541021312, "l1_done": 248034362112, "l2_acts": 248556749952, "l2_acts_sf": 248783242368, "output": 139657754970624, "peer_table": 248034361472, "route_meta": 248036131968, "route_weight": 248037311616, "send_count": 248034367104, "source_index": 248034368640, "topk_idx": 248036113536, "topk_weights": 248036125824, "weight_0_0": 139656196784128, "weight_0_1": 139657754968064, "weight_1_0": 139655894794240, "weight_1_1": 139657754968576, "workspace": 248034361344, "x": 248034761856, "x_sf": 248036072576}}
+{"event": "stage", "failed": false, "label": "reference_0_0", "rank": 5}
+{"event": "execute_begin", "label": "reference_0_0", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "reference_0_0", "rank": 5}
+{"event": "reference", "failed": false, "finite": true, "rank": 5, "repeat": 0, "stability_max_abs": 0.0, "variant": 0}
+{"event": "stage", "failed": false, "label": "reference_0_1", "rank": 5}
+{"event": "execute_begin", "label": "reference_0_1", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "reference_0_1", "rank": 5}
+{"event": "reference", "failed": false, "finite": true, "rank": 5, "repeat": 1, "stability_max_abs": 0.0, "variant": 0}
+{"event": "stage", "failed": false, "label": "reference_0_2", "rank": 5}
+{"event": "execute_begin", "label": "reference_0_2", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "reference_0_2", "rank": 5}
+{"event": "reference", "failed": false, "finite": true, "rank": 5, "repeat": 2, "stability_max_abs": 0.0, "variant": 0}
+{"event": "stage", "failed": false, "label": "reference_1_0", "rank": 5}
+{"event": "execute_begin", "label": "reference_1_0", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "reference_1_0", "rank": 5}
+{"event": "reference", "failed": false, "finite": true, "rank": 5, "repeat": 0, "stability_max_abs": 0.0, "variant": 1}
+{"event": "stage", "failed": false, "label": "reference_1_1", "rank": 5}
+{"event": "execute_begin", "label": "reference_1_1", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "reference_1_1", "rank": 5}
+{"event": "reference", "failed": false, "finite": true, "rank": 5, "repeat": 1, "stability_max_abs": 0.0, "variant": 1}
+{"event": "stage", "failed": false, "label": "reference_1_2", "rank": 5}
+{"event": "execute_begin", "label": "reference_1_2", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "reference_1_2", "rank": 5}
+{"event": "reference", "failed": false, "finite": true, "rank": 5, "repeat": 2, "stability_max_abs": 0.0, "variant": 1}
+{"event": "reference_separation", "failed": false, "max_abs": 18.3125, "rank": 5}
+{"event": "stage", "failed": false, "label": "capture_A", "rank": 5}
+{"event": "execute_begin", "label": "initialize_A", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "initialize_A", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "initialize", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 1, "rank": 5, "replay": 1, "step": -1, "variant": 0}
+{"event": "stage", "failed": false, "label": "step_0_replay_2", "rank": 5}
+{"event": "execute_begin", "label": "step_0_replay_2", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_0_replay_2", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 0, "rank": 5, "replay": 2, "step": 0, "variant": 1}
+{"event": "stage", "failed": false, "label": "step_1_replay_3", "rank": 5}
+{"event": "execute_begin", "label": "step_1_replay_3", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_1_replay_3", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 1, "rank": 5, "replay": 3, "step": 1, "variant": 0}
+{"event": "stage", "failed": false, "label": "step_2_replay_4", "rank": 5}
+{"event": "execute_begin", "label": "step_2_replay_4", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_2_replay_4", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 0, "rank": 5, "replay": 4, "step": 2, "variant": 1}
+{"event": "stage", "failed": false, "label": "step_3_replay_5", "rank": 5}
+{"event": "execute_begin", "label": "step_3_replay_5", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_3_replay_5", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 1, "rank": 5, "replay": 5, "step": 3, "variant": 0}
+{"event": "stage", "failed": false, "label": "step_4_replay_6", "rank": 5}
+{"event": "execute_begin", "label": "step_4_replay_6", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_4_replay_6", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 0, "rank": 5, "replay": 6, "step": 4, "variant": 1}
+{"event": "stage", "failed": false, "label": "step_5_replay_7", "rank": 5}
+{"event": "execute_begin", "label": "step_5_replay_7", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_5_replay_7", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 1, "rank": 5, "replay": 7, "step": 5, "variant": 0}
+{"event": "stage", "failed": false, "label": "step_6_replay_8", "rank": 5}
+{"event": "execute_begin", "label": "step_6_replay_8", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_6_replay_8", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 0, "rank": 5, "replay": 8, "step": 6, "variant": 1}
+{"event": "stage", "failed": false, "label": "step_7_replay_9", "rank": 5}
+{"event": "execute_begin", "label": "step_7_replay_9", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_7_replay_9", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 1, "rank": 5, "replay": 9, "step": 7, "variant": 0}
+{"event": "stage", "failed": false, "label": "step_8_replay_10", "rank": 5}
+{"event": "execute_begin", "label": "step_8_replay_10", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_8_replay_10", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 0, "rank": 5, "replay": 10, "step": 8, "variant": 1}
+{"event": "stage", "failed": false, "label": "step_9_replay_11", "rank": 5}
+{"event": "execute_begin", "label": "step_9_replay_11", "rank": 5}
+{"event": "execute_end", "failed": false, "label": "step_9_replay_11", "rank": 5}
+{"addresses_unchanged": true, "current_max_abs": 0.0, "event": "step", "failed": false, "finite": true, "mode": "eager", "previous_max_abs": 18.3125, "previous_variant": 1, "rank": 5, "replay": 11, "step": 9, "variant": 0}
+{"event": "summary", "launches_checked": 11, "passed": true, "rank": 5, "steps_completed": 10}

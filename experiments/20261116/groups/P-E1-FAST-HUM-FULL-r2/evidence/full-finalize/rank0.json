@@ -1,0 +1,326 @@
+{
+  "rank": 0,
+  "target_layers": [
+    {
+      "layer": "language_model.model.layers.0.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.1.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.2.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.3.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.4.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.5.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.6.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.7.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.8.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.9.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.10.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.11.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.12.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.13.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.14.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.15.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.16.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.17.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.18.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.19.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.20.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.21.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.22.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.23.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.24.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.25.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.26.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.27.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.28.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.29.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.30.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.31.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.32.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.33.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.34.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.35.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.36.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.37.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.38.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    },
+    {
+      "layer": "language_model.model.layers.39.ffn.experts",
+      "scale": 1.0,
+      "full_finalize_max_rows": 128,
+      "before_collective": true,
+      "preserve_bf16_rounding": true,
+      "shared_stream": "await at finalizer; do not consume output early"
+    }
+  ],
+  "scope": "post-load eligibility; runtime branch evidence required"
+}

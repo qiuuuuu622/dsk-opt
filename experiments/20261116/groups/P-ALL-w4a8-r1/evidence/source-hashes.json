@@ -1,0 +1,11 @@
+{
+  "src/dsk_combined_worker.py": "7e582f3895bde69020f31e9ef75807af658b6d643e968a059ff2a351b77f92c0",
+  "src/dsk_headrow_adapter.py": "396363c7f0b28170464b2a04d9e357852ee1eb3729c00411c5d299307b5206c7",
+  "src/dsk_indexer_adapter.py": "553fdf6a46712620f387afaf31e5a05371801f7bb375a64c43998895d1397734",
+  "src/dsk_indexer_worker.py": "9483b8d4cb40ae3ed28aa090425c5570edf9b68388ad429cab7c8ad2b6607c83",
+  "src/dsk_humming_worker.py": "47b5715ad1b553a02836232156f13087c05caf57fa181e0cd777f4d8b5082c5c",
+  "src/vllm_dsv41_moe/adapter.py": "fdae1746953e86f88738ccd5a895ad17b698e754b46d008b1fa1c9bc287dfd5c",
+  "src/vllm_dsv41_moe/ops.py": "2cfcb65e5a804fbe297ee9def885bdd0041c54f986912d4cf38852608de6c052",
+  "scripts/43_headrow_adapter_verify.py": "34a60a3ca18d61715b0b2e109b35189d25e685a7129162e9525e2183c55f9082",
+  "scripts/44_headrow_adapter_verify.sh": "5c39216984c5afc5be3aeb0dd868d44f2dfe1ad125d6024c37ac1fba98abad2a"
+}

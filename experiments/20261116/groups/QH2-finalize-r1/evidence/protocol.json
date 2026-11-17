@@ -1,0 +1,14 @@
+{
+  "state": "prepared_not_started",
+  "purpose": "same-precision tiled Humming finalizer quality comparison",
+  "activation": "BF16 unchanged",
+  "A8": false,
+  "finalize": true,
+  "max_tokens": 128,
+  "temperature": 0,
+  "seed": 1234,
+  "cache": "fresh worker",
+  "first_requests": 150,
+  "qps": 0.45,
+  "not_implemented": "shared expert fusion"
+}

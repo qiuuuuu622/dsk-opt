@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "configs": {
+    "target": 640,
+    "draft": 48
+  },
+  "target": "FP8 E4M3",
+  "draft": "BF16",
+  "weights": "FP4 E2M1"
+}

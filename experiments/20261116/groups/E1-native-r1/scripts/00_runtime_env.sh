@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+source /root/gc_moe_isolated_20261116/scripts/00_env.sh
+export PYTHONPATH=/root/gc_moe_isolated_20261116/src/vllm-5df63a7:/root/dsk_opt_goal_20261116/src
+export DYN_DISCOVERY_BACKEND=file
+export DYN_REQUEST_PLANE=tcp
+export DYN_EVENT_PLANE=zmq
+export DYN_FILE_KV=/root/dsk_opt_goal_20261116/groups/E1-native-r1/discovery
+export DYN_NAMESPACE=dsk-e1-native-r1
+export PYTHONUNBUFFERED=1
+export DSK_HUMMING_FINALIZE=0
+export DSK_HUMMING_A8=0
+export DSK_COMPACT_INDEXER=0
+export DSK_HEADROW=0
+export DSK_GC_MOE=0

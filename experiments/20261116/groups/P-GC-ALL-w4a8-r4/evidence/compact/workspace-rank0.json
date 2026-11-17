@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "rank": 0,
+  "max_rows": 384,
+  "persistent_bytes": 28317704,
+  "supported": "FP8 decode/verify flattened N1, 32x128 index heads, page64, candidate block8, top512, PCP1 DCP1; native fallback otherwise",
+  "runtime_kernel_hits": "not established by installation; requires trace"
+}

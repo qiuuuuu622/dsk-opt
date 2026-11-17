@@ -1,0 +1,6409 @@
+{
+  "target_layers_per_rank": 40,
+  "ranks": 8,
+  "gemm_config_count": 640,
+  "all_target_gemms": "W4A16 BF16 activation, FP4 E2M1 weight",
+  "draft": "not captured in this audit; V2 uses speculator rather than drafter",
+  "records": [
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank0",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank1",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank2",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank3",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank4",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank5",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank6",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.0.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.1.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.2.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.3.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.4.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.5.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.6.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.7.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.8.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.9.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.10.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.11.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.12.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.13.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.14.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.15.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.16.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.17.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.18.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.19.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.20.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.21.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.22.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.23.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.24.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.25.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.26.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.27.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.28.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.29.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.30.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.31.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.32.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.33.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.34.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.35.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.36.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.37.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.38.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w13",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    },
+    {
+      "rank": "rank7",
+      "layer": "language_model.model.layers.39.ffn.experts.routed_experts",
+      "gemm": "w2",
+      "activation_bits": 16,
+      "activation_exponent": 8,
+      "activation_mantissa": 7,
+      "weight_bits": 4,
+      "input_quant_mode": "none"
+    }
+  ]
+}

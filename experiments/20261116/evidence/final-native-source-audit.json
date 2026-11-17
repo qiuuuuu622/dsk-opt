@@ -1,0 +1,9 @@
+{
+  "unchanged": true,
+  "files": {
+    "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/fused_moe/experts/fused_humming_moe.py": "91c1e08b82931a9882f8c3e5e3ebcbfe8f17810a50015c88ed59a2e13e5ba1f0",
+    "/usr/local/lib/python3.12/dist-packages/vllm/models/deepseek_v41/nvidia/flashmla.py": "6bfcc91c278bae8f9c95d9ec4da12ef98112b9ccf9d22547743485759c258348",
+    "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/sparse_attn_indexer.py": "75d14da5e2b8c237f7fc0a807d2b72677660a945c70d23825da3517801d9ca10"
+  },
+  "scope": "three frozen integration entry files; not a whole-site-packages hash"
+}

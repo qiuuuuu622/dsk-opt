@@ -1,0 +1,8 @@
+{
+  "purpose": "quality baseline, not production performance",
+  "temperature": 0,
+  "seed": 1234,
+  "cache": "fresh worker; no cache salt because probe shows ignored",
+  "first_requests": 150,
+  "qps": 0.45
+}

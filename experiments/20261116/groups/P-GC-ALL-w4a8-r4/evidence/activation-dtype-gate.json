@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "target": "GC native FP8 E4M3 K128, MXFP4 weights; 40 layers/rank",
+  "draft": "native unchanged",
+  "humming_target_layers": 0,
+  "finalize": "GC output BF16 scale + shared add fusion"
+}

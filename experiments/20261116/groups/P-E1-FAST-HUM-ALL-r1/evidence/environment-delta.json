@@ -1,0 +1,8 @@
+{
+  "purpose": "Same E1 GPU environment comparison to P-FAST-GC-ALL-r2; environment-only comparison to P-FAST-HUM-ALL-r1",
+  "worker": "Torch2.11.0+cu130 Triton3.7.1 CUTLASS4.8.1 NCCL2.28.9 vLLM0.32.0 Humming0.1.17",
+  "frontend": "exact E0 frontend same as GC and Humming fastokens groups",
+  "MoE": "Humming target-only FP8 E4M3 per-token / FP4",
+  "finalize": "same tiled finalizer as E0 Humming; not full scale/shared fusion",
+  "all_other_parameters": "copied from P-FAST-HUM-ALL-r1"
+}

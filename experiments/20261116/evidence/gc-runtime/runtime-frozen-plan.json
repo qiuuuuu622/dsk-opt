@@ -1,0 +1,144 @@
+{
+  "mode": "freeze actual E0 closure, no-deps install; preserve existing E1 GC/build packages",
+  "package_count": 209,
+  "install_count": 150,
+  "public_count": 147,
+  "cuda_wheels": {
+    "torchaudio": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "torchcodec": "0.17.0+cu130"
+  },
+  "protected_e1": {
+    "cuda-toolkit": "13.0.2",
+    "typing-extensions": "4.16.0",
+    "jinja2": "3.1.6",
+    "nvidia-cufile": "1.15.1.6",
+    "nvidia-nvtx": "13.0.85",
+    "mpmath": "1.3.0",
+    "fsspec": "2026.9.0",
+    "cuda-bindings": "13.4.4",
+    "nvidia-nvjitlink": "13.0.88",
+    "nvidia-nvshmem-cu13": "3.4.5",
+    "nvidia-cuda-runtime": "13.0.96",
+    "nvidia-cuda-cupti": "13.0.85",
+    "networkx": "3.7",
+    "nvidia-cusparselt-cu13": "0.8.0",
+    "nvidia-cusparse": "12.6.3.3",
+    "nvidia-curand": "10.4.0.35",
+    "nvidia-cuda-nvrtc": "13.0.88",
+    "sympy": "1.14.0",
+    "nvidia-cusolver": "12.0.4.66",
+    "nvidia-cufft": "12.0.0.61",
+    "nvidia-cudnn-cu13": "9.19.0.56",
+    "nvidia-cublas": "13.1.0.3",
+    "triton": "3.6.0",
+    "torch": "2.11.0+cu130",
+    "cuda-python": "13.4.4",
+    "nvidia-cutlass-dsl": "4.8.1",
+    "packaging": "26.3",
+    "nvidia-cutlass-dsl-libs-base": "4.8.1",
+    "protobuf": "6.33.6",
+    "pygments": "2.21.0",
+    "nvidia-cutlass-dsl-libs-core": "4.8.1",
+    "setuptools": "80.10.2",
+    "cuda-core": "1.2.2",
+    "numpy": "2.2.6",
+    "nvidia-cutlass-dsl-libs-cu12": "4.8.1",
+    "nvidia-nccl-cu13": "2.28.9",
+    "tabulate": "0.10.0",
+    "requests": "2.34.2",
+    "markupsafe": "3.0.4",
+    "idna": "3.20",
+    "nvidia-ml-py": "13.615.71",
+    "charset-normalizer": "3.5.2",
+    "ninja": "1.13.2",
+    "urllib3": "2.8.0",
+    "einops": "0.8.2",
+    "tqdm": "4.70.1",
+    "safetensors": "0.8.0",
+    "nccl4py": "0.6.0",
+    "humming-kernels": "0.1.17",
+    "nvidia-cutlass-dsl-libs-cu13": "4.8.1",
+    "flashinfer-python": "0.7.0.post1",
+    "certifi": "2026.7.22",
+    "click": "8.5.0",
+    "cuda-pathfinder": "1.8.3",
+    "filelock": "4.2.1",
+    "cuda-tile": "1.6.0",
+    "apache-tvm-ffi": "0.1.11",
+    "nccl-extensions": "0.1.0",
+    "nvidia-cudnn-frontend": "1.31.0"
+  },
+  "missing_from_main": [
+    "aisimulate==0.12.0"
+  ],
+  "main_declared_version_mismatches": [
+    {
+      "requirement": "nvidia-nccl-cu13==2.29.7",
+      "main_version": "2.30.7"
+    },
+    {
+      "requirement": "pydantic<=2.13,>=2.10.6",
+      "main_version": "2.14.1"
+    }
+  ],
+  "planned_differences": {
+    "torch": {
+      "main": "2.13.0+cu130",
+      "E1": "2.11.0+cu130"
+    },
+    "torchvision": {
+      "main": "0.28.0+cu130",
+      "E1": "0.26.0+cu130"
+    },
+    "nvidia-cutlass-dsl": {
+      "main": "4.8.0",
+      "E1": "4.8.1"
+    },
+    "triton": {
+      "main": "3.7.1",
+      "E1": "3.6.0"
+    },
+    "cuda-toolkit": {
+      "main": "13.0.3.0",
+      "E1": "13.0.2"
+    },
+    "nvidia-cudnn-cu13": {
+      "main": "9.20.0.48",
+      "E1": "9.19.0.56"
+    },
+    "nvidia-cusparselt-cu13": {
+      "main": "0.8.1",
+      "E1": "0.8.0"
+    },
+    "nvidia-nccl-cu13": {
+      "main": "2.30.7",
+      "E1": "2.28.9"
+    },
+    "nvidia-cutlass-dsl-libs-base": {
+      "main": "4.8.0",
+      "E1": "4.8.1"
+    },
+    "nvidia-cutlass-dsl-libs-cu12": {
+      "main": "4.8.0",
+      "E1": "4.8.1"
+    },
+    "nvidia-cutlass-dsl-libs-cu13": {
+      "main": "4.8.0",
+      "E1": "4.8.1"
+    },
+    "nvidia-cublas": {
+      "main": "13.1.1.3",
+      "E1": "13.1.0.3"
+    },
+    "nvidia-nvjitlink": {
+      "main": "13.4.92",
+      "E1": "13.0.88"
+    },
+    "nvidia-cutlass-dsl-libs-core": {
+      "main": "4.8.0",
+      "E1": "4.8.1"
+    }
+  },
+  "pyjwt_pydantic": "Preserve effective E0 PyJWT2.15.1/Pydantic2.14.1. Earlier PyJWT2.7 constraint incorrectly selected lower-priority system dist; fixed metadata precedence. No package mutation occurred."
+}

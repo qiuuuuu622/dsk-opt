@@ -1,0 +1,13 @@
+{
+  "group": "A1-off-r1",
+  "humming_a8": false,
+  "humming_finalize": false,
+  "scope": "integration code present, all optimization flags off",
+  "changes_vs_A0": [
+    "worker class includes dormant opt-in hooks",
+    "draft metadata captured from V2 speculator"
+  ],
+  "request_plan": "first150.plan.json.gz",
+  "qps": 0.45,
+  "requests": 150
+}

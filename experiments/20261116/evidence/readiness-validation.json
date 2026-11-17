@@ -1,0 +1,472 @@
+{
+  "gc-eager-smoke-ptx134": {
+    "ranks": 8,
+    "passed": true,
+    "details": [
+      {
+        "file": "routed_rank0.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 11,
+          "passed": true,
+          "rank": 0,
+          "steps_completed": 10
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank1.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 11,
+          "passed": true,
+          "rank": 1,
+          "steps_completed": 10
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank2.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 11,
+          "passed": true,
+          "rank": 2,
+          "steps_completed": 10
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank3.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 11,
+          "passed": true,
+          "rank": 3,
+          "steps_completed": 10
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank4.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 11,
+          "passed": true,
+          "rank": 4,
+          "steps_completed": 10
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank5.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 11,
+          "passed": true,
+          "rank": 5,
+          "steps_completed": 10
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank6.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 11,
+          "passed": true,
+          "rank": 6,
+          "steps_completed": 10
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank7.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 11,
+          "passed": true,
+          "rank": 7,
+          "steps_completed": 10
+        },
+        "failed_records": 0
+      }
+    ]
+  },
+  "routed-graph-1000-r1": {
+    "ranks": 8,
+    "passed": true,
+    "details": [
+      {
+        "file": "routed_rank0.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 0,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank1.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 1,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank2.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 2,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank3.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 3,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank4.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 4,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank5.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 5,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank6.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 6,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank7.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 7,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      }
+    ]
+  },
+  "routed-graph-1000-r2": {
+    "ranks": 8,
+    "passed": true,
+    "details": [
+      {
+        "file": "routed_rank0.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 0,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank1.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 1,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank2.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 2,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank3.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 3,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank4.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 4,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank5.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 5,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank6.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 6,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank7.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 7,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      }
+    ]
+  },
+  "routed-graph-1000-r3": {
+    "ranks": 8,
+    "passed": true,
+    "details": [
+      {
+        "file": "routed_rank0.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 0,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank1.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 1,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank2.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 2,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank3.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 3,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank4.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 4,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank5.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 5,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank6.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 6,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "routed_rank7.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 7,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      }
+    ]
+  },
+  "shared-graph-1000": {
+    "ranks": 8,
+    "passed": true,
+    "details": [
+      {
+        "file": "fused_se_rank0.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 0,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "fused_se_rank1.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 1,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "fused_se_rank2.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 2,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "fused_se_rank3.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 3,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "fused_se_rank4.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 4,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "fused_se_rank5.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 5,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "fused_se_rank6.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 6,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      },
+      {
+        "file": "fused_se_rank7.jsonl",
+        "summary": {
+          "event": "summary",
+          "launches_checked": 1001,
+          "passed": true,
+          "rank": 7,
+          "steps_completed": 1000
+        },
+        "failed_records": 0
+      }
+    ]
+  }
+}

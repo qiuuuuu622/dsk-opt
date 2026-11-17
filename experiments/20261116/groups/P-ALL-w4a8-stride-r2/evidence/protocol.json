@@ -1,0 +1,18 @@
+{
+  "state": "prepared",
+  "A8": true,
+  "tiled_finalize": true,
+  "compact_indexer": true,
+  "headrow": true,
+  "shared_scale_fusion": false,
+  "requests": 150,
+  "qps": 0.45,
+  "quality": "same timed run output structural checks; headrow adapter eight-rank changed-input graph check required before start",
+  "baseline": "A1-off-r1",
+  "incremental_reference": "P-H3-a8-finalize-r1",
+  "fix": "Accept page-padded FP8 KV cache with native inner layout; use actual page stride. Bxnext_n mapping also supported.",
+  "gate": "one synthetic preflight then all8 compact branch; no150 if absent",
+  "preflight": "one synthetic user-only request excluded from timed150",
+  "reason": "User requested same-config repeat",
+  "repeat_of": "P-ALL-w4a8-stride-r1"
+}

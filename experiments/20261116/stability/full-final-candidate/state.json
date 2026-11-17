@@ -1,0 +1,18 @@
+{
+  "status": "stopped_by_user",
+  "controller_pid": 503556,
+  "service_pids": {
+    "frontend": 498462,
+    "worker": 498463,
+    "replay_launcher": 498464
+  },
+  "completed_phases": [],
+  "time": 1794828566.6692247,
+  "phase": "30min",
+  "batch": 2,
+  "replay_pid": 504199,
+  "finished_requests": 251,
+  "phase_elapsed": 637.3165635860059,
+  "stopped_at": 1794828604.9397168,
+  "reason": "User requested stopping processes; stability phases incomplete"
+}

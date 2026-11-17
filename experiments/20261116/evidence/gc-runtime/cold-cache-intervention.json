@@ -1,0 +1,6 @@
+{
+  "pid": 423765,
+  "reason": "Use already-resolved /opt/uv/cache instead of cold GC cache; no frozen package version changes",
+  "environment_unchanged": true,
+  "io_before": "rchar: 2685398\nwchar: 25126311\nsyscr: 169\nsyscw: 970\nread_bytes: 0\nwrite_bytes: 25284608\ncancelled_write_bytes: 0\n"
+}

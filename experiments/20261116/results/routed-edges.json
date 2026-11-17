@@ -1,0 +1,304 @@
+{
+  "world_size": 8,
+  "case_category": "asymmetric",
+  "config": {
+    "hidden": 5120,
+    "intermediate_hidden": 2304,
+    "num_experts": 384,
+    "num_topk": 6,
+    "activation": "swiglu",
+    "activation_alpha": 1.0,
+    "activation_clamp": 10.0,
+    "fast_math": true,
+    "num_max_tokens_per_rank": 256
+  },
+  "mode": "asym",
+  "per_rank_vectors": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      15,
+      16,
+      17,
+      31,
+      32,
+      33,
+      255,
+      256
+    ],
+    [
+      256,
+      0,
+      1,
+      17,
+      0,
+      32,
+      128,
+      255
+    ]
+  ],
+  "threshold": 0.97,
+  "processed_diff_threshold": 0.002,
+  "package_audit": {
+    "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+    "version": "0.6.2",
+    "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+  },
+  "rank_packages": [
+    {
+      "rank": 0,
+      "gc": {
+        "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+        "version": "0.6.2",
+        "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+      },
+      "baseline_file": "/root/dsk_opt_goal_20261116/evidence/deep_gemm_math.py",
+      "baseline_version": "vllm-0.32-vendored-quant-utils-only"
+    },
+    {
+      "rank": 1,
+      "gc": {
+        "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+        "version": "0.6.2",
+        "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+      },
+      "baseline_file": "/root/dsk_opt_goal_20261116/evidence/deep_gemm_math.py",
+      "baseline_version": "vllm-0.32-vendored-quant-utils-only"
+    },
+    {
+      "rank": 2,
+      "gc": {
+        "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+        "version": "0.6.2",
+        "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+      },
+      "baseline_file": "/root/dsk_opt_goal_20261116/evidence/deep_gemm_math.py",
+      "baseline_version": "vllm-0.32-vendored-quant-utils-only"
+    },
+    {
+      "rank": 3,
+      "gc": {
+        "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+        "version": "0.6.2",
+        "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+      },
+      "baseline_file": "/root/dsk_opt_goal_20261116/evidence/deep_gemm_math.py",
+      "baseline_version": "vllm-0.32-vendored-quant-utils-only"
+    },
+    {
+      "rank": 4,
+      "gc": {
+        "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+        "version": "0.6.2",
+        "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+      },
+      "baseline_file": "/root/dsk_opt_goal_20261116/evidence/deep_gemm_math.py",
+      "baseline_version": "vllm-0.32-vendored-quant-utils-only"
+    },
+    {
+      "rank": 5,
+      "gc": {
+        "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+        "version": "0.6.2",
+        "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+      },
+      "baseline_file": "/root/dsk_opt_goal_20261116/evidence/deep_gemm_math.py",
+      "baseline_version": "vllm-0.32-vendored-quant-utils-only"
+    },
+    {
+      "rank": 6,
+      "gc": {
+        "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+        "version": "0.6.2",
+        "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+      },
+      "baseline_file": "/root/dsk_opt_goal_20261116/evidence/deep_gemm_math.py",
+      "baseline_version": "vllm-0.32-vendored-quant-utils-only"
+    },
+    {
+      "rank": 7,
+      "gc": {
+        "file": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe",
+        "version": "0.6.2",
+        "source_sha256": "87a71f400941ee4332c512338b5bd57eff28ad1a3a967723d06b0ee80ee3166a"
+      },
+      "baseline_file": "/root/dsk_opt_goal_20261116/evidence/deep_gemm_math.py",
+      "baseline_version": "vllm-0.32-vendored-quant-utils-only"
+    }
+  ],
+  "requested_capacity": 256,
+  "aligned_capacity": {
+    "candidate": 256
+  },
+  "operators": {
+    "candidate": "gc_moe.sm90_fp8_fp4_gc_moe"
+  },
+  "modules": {
+    "candidate": "/root/gc_moe_isolated_20261116/src/gc-moe/gc_moe/__init__.py"
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "gc_processed_diff_max": 0.0,
+      "gc_repeat_graph_diff_max": 0.0,
+      "gc_abs_error_max": 0.0,
+      "gc_relative_l2_max": 0.0,
+      "recv_stats_exact": true,
+      "num_tokens_per_rank": 0,
+      "finite": true,
+      "num_tokens_global": 0,
+      "gc_replays_eager_and_graph": 5,
+      "cos_rank0": 1.0,
+      "cos_avg": 1.0,
+      "cos_min": 1.0,
+      "cos_per_rank": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "passed": true,
+      "asym_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "asym_index": 0
+    },
+    {
+      "gc_processed_diff_max": 4.150124692459123e-06,
+      "gc_repeat_graph_diff_max": 0.0,
+      "gc_abs_error_max": 0.03125,
+      "gc_relative_l2_max": 0.00288091110996902,
+      "recv_stats_exact": true,
+      "num_tokens_per_rank": 0,
+      "finite": true,
+      "num_tokens_global": 4,
+      "gc_replays_eager_and_graph": 5,
+      "cos_rank0": 1.0,
+      "cos_avg": 0.9890614673495293,
+      "cos_min": 0.9770392775535583,
+      "cos_per_rank": [
+        1.0,
+        0.977837085723877,
+        1.0,
+        0.9796134233474731,
+        1.0,
+        0.9780019521713257,
+        1.0,
+        0.9770392775535583
+      ],
+      "passed": true,
+      "asym_vector": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "asym_index": 1
+    },
+    {
+      "gc_processed_diff_max": 5.73608255105551e-06,
+      "gc_repeat_graph_diff_max": 0.0,
+      "gc_abs_error_max": 0.0625,
+      "gc_relative_l2_max": 0.0033869126345962286,
+      "recv_stats_exact": true,
+      "num_tokens_per_rank": 15,
+      "finite": true,
+      "num_tokens_global": 655,
+      "gc_replays_eager_and_graph": 5,
+      "cos_rank0": 0.9781315922737122,
+      "cos_avg": 0.9783133417367935,
+      "cos_min": 0.9780975580215454,
+      "cos_per_rank": [
+        0.9781315922737122,
+        0.9785529971122742,
+        0.9783998727798462,
+        0.9781215190887451,
+        0.9780975580215454,
+        0.9784842133522034,
+        0.978387176990509,
+        0.9783318042755127
+      ],
+      "passed": true,
+      "asym_vector": [
+        15,
+        16,
+        17,
+        31,
+        32,
+        33,
+        255,
+        256
+      ],
+      "asym_index": 2
+    },
+    {
+      "gc_processed_diff_max": 1.8046725373310757e-05,
+      "gc_repeat_graph_diff_max": 0.0,
+      "gc_abs_error_max": 0.109375,
+      "gc_relative_l2_max": 0.006008362863212824,
+      "recv_stats_exact": true,
+      "num_tokens_per_rank": 256,
+      "finite": true,
+      "num_tokens_global": 689,
+      "gc_replays_eager_and_graph": 5,
+      "cos_rank0": 0.9783506393432617,
+      "cos_avg": 0.9837496876716614,
+      "cos_min": 0.9781715869903564,
+      "cos_per_rank": [
+        0.9783506393432617,
+        1.0,
+        0.9781715869903564,
+        0.9782507419586182,
+        1.0,
+        0.9784867763519287,
+        0.9784128665924072,
+        0.9783248901367188
+      ],
+      "passed": true,
+      "asym_vector": [
+        256,
+        0,
+        1,
+        17,
+        0,
+        32,
+        128,
+        255
+      ],
+      "asym_index": 3
+    }
+  ]
+}

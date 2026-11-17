@@ -1,0 +1,15 @@
+{
+  "validated": true,
+  "requests": 150,
+  "success": 150,
+  "failed": 0,
+  "scheduled_send_end_sec": 331.11111111111114,
+  "max_dispatch_lag_ms": 3.1769478939374096,
+  "finish_reasons": {
+    "stop": 150
+  },
+  "completion_tokens": 215744,
+  "all_usage": true,
+  "send_order_verified": true,
+  "percentiles_recomputed": true
+}

@@ -1,0 +1,120 @@
+{
+  "baseline": "A1-off-r1",
+  "candidates": [
+    "P-E1-FAST-HUM-FULL-r1",
+    "P-E1-FAST-HUM-FULL-r2"
+  ],
+  "seed": 20261116,
+  "draws": 3000,
+  "scope": "Resample matched request IDs jointly across all three runs, average candidate quantiles minus baseline. This is NOT a CI over independent runs, NOT a pure mechanism causal estimate. One baseline and stochastic generated lengths, E0/E1 runtime differences limit attribution. Two candidate runs do not establish P99 stability.",
+  "rows": [
+    {
+      "metric": "ttft_ms",
+      "quantile": 95,
+      "baseline": 11473.49260172632,
+      "rounds": [
+        10266.268405286248,
+        10324.943709583024
+      ],
+      "median_across_two_rounds": 10295.606057434636,
+      "range_across_two_rounds": [
+        10266.268405286248,
+        10324.943709583024
+      ],
+      "paired_request_bootstrap_mean_quantile_difference_95pct": [
+        -1506.5040514746215,
+        -981.8327932371176
+      ]
+    },
+    {
+      "metric": "ttft_ms",
+      "quantile": 99,
+      "baseline": 13601.146937580768,
+      "rounds": [
+        12402.617339594864,
+        12362.477522091349
+      ],
+      "median_across_two_rounds": 12382.547430843108,
+      "range_across_two_rounds": [
+        12362.477522091349,
+        12402.617339594864
+      ],
+      "paired_request_bootstrap_mean_quantile_difference_95pct": [
+        -1372.676342522027,
+        -1036.2710440531373
+      ]
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "quantile": 95,
+      "baseline": 12.772268215267976,
+      "rounds": [
+        10.947079380178659,
+        10.042855947600277
+      ],
+      "median_across_two_rounds": 10.494967663889469,
+      "range_across_two_rounds": [
+        10.042855947600277,
+        10.947079380178659
+      ],
+      "paired_request_bootstrap_mean_quantile_difference_95pct": [
+        -5.778708057296015,
+        -1.0303857033141437
+      ]
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "quantile": 99,
+      "baseline": 18.03899535199916,
+      "rounds": [
+        15.269711535820583,
+        15.426244802805181
+      ],
+      "median_across_two_rounds": 15.347978169312881,
+      "range_across_two_rounds": [
+        15.269711535820583,
+        15.426244802805181
+      ],
+      "paired_request_bootstrap_mean_quantile_difference_95pct": [
+        -7.407085296657526,
+        -0.7554661702851834
+      ]
+    },
+    {
+      "metric": "e2e_ms",
+      "quantile": 95,
+      "baseline": 31566.825090424405,
+      "rounds": [
+        28556.316598434936,
+        30183.764062405684
+      ],
+      "median_across_two_rounds": 29370.04033042031,
+      "range_across_two_rounds": [
+        28556.316598434936,
+        30183.764062405684
+      ],
+      "paired_request_bootstrap_mean_quantile_difference_95pct": [
+        -13223.42358898402,
+        7841.926997527011
+      ]
+    },
+    {
+      "metric": "e2e_ms",
+      "quantile": 99,
+      "baseline": 62356.58908445204,
+      "rounds": [
+        61601.52197469365,
+        51892.61420516063
+      ],
+      "median_across_two_rounds": 56747.06808992714,
+      "range_across_two_rounds": [
+        51892.61420516063,
+        61601.52197469365
+      ],
+      "paired_request_bootstrap_mean_quantile_difference_95pct": [
+        -18906.976798932836,
+        22584.415790689753
+      ]
+    }
+  ]
+}

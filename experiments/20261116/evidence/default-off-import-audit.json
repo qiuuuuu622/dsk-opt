@@ -1,0 +1,4 @@
+{
+  "passed": true,
+  "scope": "Importing GC and full Humming modules does not mutate runner or grouped finalizer; no install called"
+}

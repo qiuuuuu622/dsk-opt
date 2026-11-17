@@ -1,0 +1,10 @@
+{
+  "state": "prepared_not_started",
+  "kind": "compact indexer single performance and structural run",
+  "A8": false,
+  "finalize": false,
+  "compact_indexer": true,
+  "requests": 150,
+  "qps": 0.45,
+  "gate": "QI structural proxy passed; post-run trace required to establish optimized path"
+}

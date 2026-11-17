@@ -1,0 +1,8 @@
+{
+  "request": "Directly upgrade Triton to3.7",
+  "target_version": "3.7.1 matching E0",
+  "torch": "2.11.0+cu130 unchanged",
+  "source_compat_shim": "reverted; original compact indexer source restored",
+  "expected_metadata_mismatch": "Torch2.11 declares Triton3.6; explicit user override must be validated at runtime",
+  "short_checks": "GC native adapter + output fusion + changing Graph; compact indexer padded-cache Graph"
+}

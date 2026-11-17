@@ -1,0 +1,133 @@
+{
+  "group": "P-GC-ALL-w4a8-r4",
+  "baseline": "A1-off-r1",
+  "scope": "Cross-environment single-run whole-configuration comparison; not isolated causal GC gain",
+  "success": 150,
+  "failed": 0,
+  "latency": [
+    {
+      "metric": "ttft_ms",
+      "stat": "mean",
+      "baseline": 3002.183620726379,
+      "candidate": 4855.631629100535,
+      "change_percent": 61.73666379292661
+    },
+    {
+      "metric": "ttft_ms",
+      "stat": "p50",
+      "baseline": 1054.8175644944422,
+      "candidate": 2509.202324989019,
+      "change_percent": 137.8802182907943
+    },
+    {
+      "metric": "ttft_ms",
+      "stat": "p90",
+      "baseline": 9546.883461315883,
+      "candidate": 13500.511732598532,
+      "change_percent": 41.412763519140164
+    },
+    {
+      "metric": "ttft_ms",
+      "stat": "p95",
+      "baseline": 11473.49260172632,
+      "candidate": 15067.236883164154,
+      "change_percent": 31.322147546398504
+    },
+    {
+      "metric": "ttft_ms",
+      "stat": "p99",
+      "baseline": 13601.146937580768,
+      "candidate": 17092.934345043603,
+      "change_percent": 25.67274233186041
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "mean",
+      "baseline": 7.231186051992763,
+      "candidate": 17.406473601036097,
+      "change_percent": 140.71395032408606
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "p50",
+      "baseline": 6.67877136304844,
+      "candidate": 16.076685516739214,
+      "change_percent": 140.71321868699536
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "p90",
+      "baseline": 10.313251356843221,
+      "candidate": 28.53590842978598,
+      "change_percent": 176.69167988280785
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "p95",
+      "baseline": 12.772268215267976,
+      "candidate": 32.877636678430235,
+      "change_percent": 157.41423625232275
+    },
+    {
+      "metric": "tpot_ms_per_token",
+      "stat": "p99",
+      "baseline": 18.03899535199916,
+      "candidate": 39.71770319082629,
+      "change_percent": 120.17691349105317
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "mean",
+      "baseline": 11660.4403150784,
+      "candidate": 25492.735887292074,
+      "change_percent": 118.62584257926171
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "p50",
+      "baseline": 7704.318785021314,
+      "candidate": 16562.59507650975,
+      "change_percent": 114.97806021099022
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "p90",
+      "baseline": 22206.489795126232,
+      "candidate": 49672.45184677302,
+      "change_percent": 123.68439273853573
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "p95",
+      "baseline": 31566.825090424405,
+      "candidate": 88212.7148363041,
+      "change_percent": 179.44753577090927
+    },
+    {
+      "metric": "e2e_ms",
+      "stat": "p99",
+      "baseline": 62356.58908445204,
+      "candidate": 136482.2317447838,
+      "change_percent": 118.87379304846264
+    }
+  ],
+  "output_tokens": {
+    "baseline": 185443,
+    "candidate": 191688
+  },
+  "output_tokens_per_sec": {
+    "baseline": 491.7051828137764,
+    "candidate": 500.2647027565838
+  },
+  "elapsed_seconds": {
+    "baseline": 377.1426588160102,
+    "candidate": 383.1731460239971
+  },
+  "caveats": [
+    "Original temperature0.8 sampling changes generated lengths",
+    "Profiler inactive during timed replay; subsequent trace requests excluded",
+    "E1 Torch2.11/CUTLASS4.8.1/NCCL2.28.9 differs from E0 Torch2.13/CUTLASS4.8.0/NCCL2.30.7; both now Triton3.7.1",
+    "GC FP8 K128 and Humming per-token FP8 differ in activation quantization",
+    "Same-environment Humming control not executed in this direct-combination run requested by user"
+  ]
+}

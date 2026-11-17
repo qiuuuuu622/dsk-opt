@@ -1,0 +1,9 @@
+{"rank": 4, "rows": 1, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}
+{"rank": 4, "rows": 6, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}
+{"rank": 4, "rows": 12, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}
+{"rank": 4, "rows": 32, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}
+{"rank": 4, "rows": 64, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}
+{"rank": 4, "rows": 127, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}
+{"rank": 4, "rows": 128, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}
+{"rank": 4, "rows": 129, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}
+{"rank": 4, "rows": 384, "consumer_layers": 4, "changing_graph_steps": 20, "exact_topk_sets": true, "foreign_candidate_buffer_rejected": true, "unpublished_rejected": true}

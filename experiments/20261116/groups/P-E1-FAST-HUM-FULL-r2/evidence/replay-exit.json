@@ -1,0 +1,16 @@
+{
+  "exit_code": 0,
+  "command": [
+    "/root/dsk_opt_goal_20261116/.venv-e0/bin/python",
+    "/root/dsk_opt_goal_20261116/scripts/09_replay150.py",
+    "--save-responses",
+    "--plan",
+    "/root/bench_dsk_first150_20261116/first150.plan.json.gz",
+    "--base-url",
+    "http://127.0.0.1:8000/v1",
+    "--model",
+    "sf-finance-dsk41-dynamo-vllm-alyeast-prod",
+    "--output",
+    "/root/dsk_opt_goal_20261116/groups/P-E1-FAST-HUM-FULL-r2/results/replay150.jsonl"
+  ]
+}

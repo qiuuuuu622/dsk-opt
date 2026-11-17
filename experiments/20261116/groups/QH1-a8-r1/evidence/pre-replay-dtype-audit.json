@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "configs": {
+    "target": 640,
+    "draft": 48
+  },
+  "target_activation": "FP8 E4M3",
+  "draft_activation": "BF16",
+  "weights": "FP4 E2M1",
+  "input_quant_modes": {
+    "target": [
+      "dynamic_token"
+    ],
+    "draft": [
+      "none"
+    ]
+  }
+}

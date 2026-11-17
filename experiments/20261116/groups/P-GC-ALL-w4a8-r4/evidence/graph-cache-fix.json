@@ -1,0 +1,7 @@
+{
+  "fixed_output_buffer": true,
+  "per_rank_rows": "next_power_of_two(ceil(M/8)), zero route weights for padding",
+  "native_GC_kernel_unchanged": true,
+  "correctness": "160 bitwise native GC comparisons + 320 graph checks passed on 8 ranks",
+  "previous_failure": "r3 CUDA child graph instantiate OOM; dynamic pointer/shape cache growth suspected"
+}

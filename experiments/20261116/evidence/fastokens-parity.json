@@ -1,0 +1,1059 @@
+{
+  "passed": true,
+  "version": "0.3.6",
+  "native_type": "<class 'tokenizers.Tokenizer'>",
+  "fast_type": "<class 'fastokens._ConfiguredTokenizerShim'>",
+  "scope": "150 original chats rendered with tools and chat_template_kwargs; prompt, token IDs, decoded text exact; image placeholders not vision embeddings",
+  "rows": [
+    {
+      "index": 1,
+      "tokens": 97841,
+      "ids_sha256": "a9439f35c95758ccd31d048e086bfc38c3ee68280a22c3f20ceec5c130628a9d",
+      "native_seconds": 0.3089030830306001,
+      "fast_seconds": 0.034365201951004565
+    },
+    {
+      "index": 2,
+      "tokens": 23124,
+      "ids_sha256": "92d75b04a21e384a66a68394be3b0b09dad59558f095755d7f2518e7f4cec821",
+      "native_seconds": 0.06514058797620237,
+      "fast_seconds": 0.004294120008125901
+    },
+    {
+      "index": 3,
+      "tokens": 23145,
+      "ids_sha256": "6aff81d65806126dce5b55cf95863328a0796e5ac52afcb0d8a579941ae10229",
+      "native_seconds": 0.05228765896754339,
+      "fast_seconds": 0.0032634069793857634
+    },
+    {
+      "index": 4,
+      "tokens": 48936,
+      "ids_sha256": "c0a05e6d4a6df531ec1bd2f7229f5e9e7552166fa1ed8e996995de7e7103fde4",
+      "native_seconds": 0.136081358010415,
+      "fast_seconds": 0.004939239996019751
+    },
+    {
+      "index": 5,
+      "tokens": 21705,
+      "ids_sha256": "e00b47bd01996fcf788eca617fbdeec8581b72f970d17313cff5ab5b38a01467",
+      "native_seconds": 0.04848593001952395,
+      "fast_seconds": 0.0020895960042253137
+    },
+    {
+      "index": 6,
+      "tokens": 33638,
+      "ids_sha256": "68cab7e28417a0017391cfc1083799863bfcf8ca66b0e74365975223f8c517bb",
+      "native_seconds": 0.07289442699402571,
+      "fast_seconds": 0.0028926149825565517
+    },
+    {
+      "index": 7,
+      "tokens": 34350,
+      "ids_sha256": "7cad5eaeccedcc067a968e009215374e076b05fa2bf8d0138b2e2ba4a1a59dae",
+      "native_seconds": 0.0809193379827775,
+      "fast_seconds": 0.0029755659634247422
+    },
+    {
+      "index": 8,
+      "tokens": 23193,
+      "ids_sha256": "60d031b49b92bcff89c9ad9d53de3d757c066a26c1f3022ee90fc2dbb47d9d36",
+      "native_seconds": 0.044443404010962695,
+      "fast_seconds": 0.0018190010450780392
+    },
+    {
+      "index": 9,
+      "tokens": 26402,
+      "ids_sha256": "a361cd6736f297b1ff94f613a3c8f3fd98650e23feca7e610e5e08d3ded44ea9",
+      "native_seconds": 0.06304891296895221,
+      "fast_seconds": 0.0023133089998736978
+    },
+    {
+      "index": 10,
+      "tokens": 27501,
+      "ids_sha256": "85916809e13fc17b82f8b66317a679b9428d547a3e1664eb14b0b0a6274a2831",
+      "native_seconds": 0.06396073894575238,
+      "fast_seconds": 0.0023785600205883384
+    },
+    {
+      "index": 11,
+      "tokens": 38763,
+      "ids_sha256": "07960b2c1dc468952b18935e28cddb256662f6c0aecba9344292fa82e92cad4e",
+      "native_seconds": 0.08903133397689089,
+      "fast_seconds": 0.0034235380007885396
+    },
+    {
+      "index": 12,
+      "tokens": 27982,
+      "ids_sha256": "38b24dff098dbc2935aa90a024c9033c5cd75cccd98a914ef83cd78fb5459bcf",
+      "native_seconds": 0.06914645998040214,
+      "fast_seconds": 0.0025697399978525937
+    },
+    {
+      "index": 13,
+      "tokens": 41618,
+      "ids_sha256": "99a0638d1934e792237c5962015ab621dd3ed0d97e7ee143497ded80b81379fb",
+      "native_seconds": 0.10770629701437429,
+      "fast_seconds": 0.0037634799955412745
+    },
+    {
+      "index": 14,
+      "tokens": 28408,
+      "ids_sha256": "8d386ae394e87efa1905368ecb8635fb04c7e44c28c6ab44bf1902a7cc944a53",
+      "native_seconds": 0.07574437599396333,
+      "fast_seconds": 0.0027605650248005986
+    },
+    {
+      "index": 15,
+      "tokens": 29102,
+      "ids_sha256": "83a7536b3d344ea59f0a025a59ca9f39357646f1a59bccdd69ca2a0ae934a86d",
+      "native_seconds": 0.07103376201121137,
+      "fast_seconds": 0.0026210559881292284
+    },
+    {
+      "index": 16,
+      "tokens": 43261,
+      "ids_sha256": "064c30dd5e64573db6a1c8ac2adff139e26ad9bbc1ea2107a52bbf324299c11a",
+      "native_seconds": 0.11696400202345103,
+      "fast_seconds": 0.0039040170377120376
+    },
+    {
+      "index": 17,
+      "tokens": 136191,
+      "ids_sha256": "bda625f84ad5521c0620cb968a4719337a199b67fe3007e5eeadd452364c5fe0",
+      "native_seconds": 0.4375036599813029,
+      "fast_seconds": 0.012563110969495028
+    },
+    {
+      "index": 18,
+      "tokens": 30256,
+      "ids_sha256": "4d47260f55e1ea700f8a611fb81d58085c428265d4776e66e8ceda4b79f83300",
+      "native_seconds": 0.10600691504077986,
+      "fast_seconds": 0.003802255028858781
+    },
+    {
+      "index": 19,
+      "tokens": 28925,
+      "ids_sha256": "fad099a0e6f3c664ec011c76edd22aae610a98b81bd9c8f7e8325af7630b6a19",
+      "native_seconds": 0.07989162503508851,
+      "fast_seconds": 0.0028883980121463537
+    },
+    {
+      "index": 20,
+      "tokens": 44747,
+      "ids_sha256": "2cf7163ede7a35845ba0c48a8f6f621724ad769b9151283fd9440e018f2be67d",
+      "native_seconds": 0.13619078299961984,
+      "fast_seconds": 0.004237062996253371
+    },
+    {
+      "index": 21,
+      "tokens": 34249,
+      "ids_sha256": "086a015e9b701c05409790b63eb57397af7965ae3ed6407164b6a069da33be9d",
+      "native_seconds": 0.09358006902039051,
+      "fast_seconds": 0.003267410967964679
+    },
+    {
+      "index": 22,
+      "tokens": 36572,
+      "ids_sha256": "5615120343da009bb43b299e64715320550ab3353b1a8bf1a50abb641e601bb8",
+      "native_seconds": 0.103723100037314,
+      "fast_seconds": 0.0032897209748625755
+    },
+    {
+      "index": 23,
+      "tokens": 51926,
+      "ids_sha256": "452b126437ecd9623d2686145c5dcecb126ac9ec890b83a392e64fee872d77a3",
+      "native_seconds": 0.14997622196096927,
+      "fast_seconds": 0.004732421948574483
+    },
+    {
+      "index": 24,
+      "tokens": 53806,
+      "ids_sha256": "746863fd836bde8d8e71907c5638bbfaf7eba4a61890851095e814a56c09c6f3",
+      "native_seconds": 0.17039966100128368,
+      "fast_seconds": 0.004978268989361823
+    },
+    {
+      "index": 25,
+      "tokens": 57727,
+      "ids_sha256": "1ebcd60be3f6368f9761890fd21c3e32c52be5a5c4113afd5d6d3e2a54feba8b",
+      "native_seconds": 0.1802912070415914,
+      "fast_seconds": 0.005270420981105417
+    },
+    {
+      "index": 26,
+      "tokens": 60533,
+      "ids_sha256": "d55341cf12d36b6383afdfa225c6feb9343556dbcb33c667ca85296e9e6833ac",
+      "native_seconds": 0.15862186503363773,
+      "fast_seconds": 0.005327022983692586
+    },
+    {
+      "index": 27,
+      "tokens": 60733,
+      "ids_sha256": "2fc77c1c642be6a801631c5971fb37fb4e0e8e8fa9a56927f622fdeb841f8a4d",
+      "native_seconds": 0.15479305404005572,
+      "fast_seconds": 0.005888244020752609
+    },
+    {
+      "index": 28,
+      "tokens": 18248,
+      "ids_sha256": "3c9f58cd08846758118cc58325c4322f358815c91726423c5ebd5a62832578fa",
+      "native_seconds": 0.03786902001593262,
+      "fast_seconds": 0.0016031059785746038
+    },
+    {
+      "index": 29,
+      "tokens": 19487,
+      "ids_sha256": "ee39dabc38a65415a58cb08a26e6790a7c344c43eed1daaf4cafd3b03bf9344a",
+      "native_seconds": 0.03930322302039713,
+      "fast_seconds": 0.001456131984014064
+    },
+    {
+      "index": 30,
+      "tokens": 19956,
+      "ids_sha256": "2a93ebfef31eb4355a1b38fa73f5291861a78ffa61e681e7315faccce75ede1c",
+      "native_seconds": 0.03741372301010415,
+      "fast_seconds": 0.0013102310476824641
+    },
+    {
+      "index": 31,
+      "tokens": 21379,
+      "ids_sha256": "2357fdc758b75992fa5fcda388a17bf91820012d0a8acba5d666238b2999e118",
+      "native_seconds": 0.040842008020263165,
+      "fast_seconds": 0.001450480951461941
+    },
+    {
+      "index": 32,
+      "tokens": 44638,
+      "ids_sha256": "e67db1a6195d1a52b0ac966e6d08e506d414167bff89e1e68e11ab5cc4066a63",
+      "native_seconds": 0.1165966970147565,
+      "fast_seconds": 0.003277657029684633
+    },
+    {
+      "index": 33,
+      "tokens": 45320,
+      "ids_sha256": "2ba91c253ac649285e85bb24e03eacc9ede0251a31b0cd98041db669b8b04f8c",
+      "native_seconds": 0.13100437202956527,
+      "fast_seconds": 0.0034269850002601743
+    },
+    {
+      "index": 34,
+      "tokens": 112949,
+      "ids_sha256": "e3db771fc5a2f38857bf01b644fcf8d06828414245cc5bf6b170594adca41229",
+      "native_seconds": 0.28525598195847124,
+      "fast_seconds": 0.008997205004561692
+    },
+    {
+      "index": 35,
+      "tokens": 116173,
+      "ids_sha256": "26e47903a0c676dd7889a0ad9ef46f411b67e2fefd8114b200039da288233641",
+      "native_seconds": 0.3394133310066536,
+      "fast_seconds": 0.009388778998982161
+    },
+    {
+      "index": 36,
+      "tokens": 137343,
+      "ids_sha256": "729d88a8ecf6d5584b9bc122b83c3f4765cfb3052742fa7c52f63b1cf48c8740",
+      "native_seconds": 0.3833073870046064,
+      "fast_seconds": 0.010206854029092938
+    },
+    {
+      "index": 37,
+      "tokens": 18663,
+      "ids_sha256": "5e613204101353b18263ff8f649d3253e4f4f0cae41a32bb28328985940fdbe0",
+      "native_seconds": 0.04735394602175802,
+      "fast_seconds": 0.002199593000113964
+    },
+    {
+      "index": 38,
+      "tokens": 25774,
+      "ids_sha256": "4e98370ee695ce52cd35de6f0ed00660a2d8268ca891de872281e54caf309c7e",
+      "native_seconds": 0.05557250702986494,
+      "fast_seconds": 0.0021950849913991988
+    },
+    {
+      "index": 39,
+      "tokens": 29733,
+      "ids_sha256": "12e5d2bb4a430d78f4ed5d6bdfe91c4878719388fc707c80447e16aadd103a55",
+      "native_seconds": 0.06320326100103557,
+      "fast_seconds": 0.0024371029576286674
+    },
+    {
+      "index": 40,
+      "tokens": 27806,
+      "ids_sha256": "161455ce111db5e682246e71d20b84e29084f170e6438ac6d8a2e1103828ab70",
+      "native_seconds": 0.05398969497764483,
+      "fast_seconds": 0.0022783089661970735
+    },
+    {
+      "index": 41,
+      "tokens": 33561,
+      "ids_sha256": "982f8344c2d198dfcd3374bdbc1bb0b8beec43422c62498e9dc1d61dc7256f39",
+      "native_seconds": 0.08396320702740923,
+      "fast_seconds": 0.0029269770020619035
+    },
+    {
+      "index": 42,
+      "tokens": 35487,
+      "ids_sha256": "8fb8e86c13c717fe52d04e2591cf774a8396ae9067018a3fad330a883aa9d4dc",
+      "native_seconds": 0.09736494702519849,
+      "fast_seconds": 0.003143329988233745
+    },
+    {
+      "index": 43,
+      "tokens": 34520,
+      "ids_sha256": "90b30d1f3d86333165c689d035d1e3b3cfba515cf82c725593480ac2bb24375b",
+      "native_seconds": 0.09221051097847521,
+      "fast_seconds": 0.0033262750366702676
+    },
+    {
+      "index": 44,
+      "tokens": 40952,
+      "ids_sha256": "879d2c2240a29f1461827744932ef4bdd66cef24f1f1bd208131242cd940f430",
+      "native_seconds": 0.10840754501987249,
+      "fast_seconds": 0.00359403999755159
+    },
+    {
+      "index": 45,
+      "tokens": 38680,
+      "ids_sha256": "220d8642d3c42822951986938ed25fc6d15382396117d87158b86d3ef8275c6f",
+      "native_seconds": 0.09376666799653322,
+      "fast_seconds": 0.003577310999389738
+    },
+    {
+      "index": 46,
+      "tokens": 52856,
+      "ids_sha256": "1470ea449bdf6c12deadeae64ec1bbec03bcb6f386708458c076bd7b33b8bf3d",
+      "native_seconds": 0.13582391600357369,
+      "fast_seconds": 0.005377795023377985
+    },
+    {
+      "index": 47,
+      "tokens": 127346,
+      "ids_sha256": "fd08782ddfd54bc91d2e65e5db8e242b518ef90d02dd51746f2aa0de916acc67",
+      "native_seconds": 0.372865041019395,
+      "fast_seconds": 0.010175428993534297
+    },
+    {
+      "index": 48,
+      "tokens": 57787,
+      "ids_sha256": "aa81dc7c9fb4a3409ba7d5e10112c1776e3e9fc48da1a25485bd1caf09a5f60b",
+      "native_seconds": 0.1597167529980652,
+      "fast_seconds": 0.005790053983218968
+    },
+    {
+      "index": 49,
+      "tokens": 19005,
+      "ids_sha256": "74980675b4f3adc82cc18b6096b65a5770c5fb0100eb3207a1aa6de0d7629f5b",
+      "native_seconds": 0.04060643899720162,
+      "fast_seconds": 0.0017862069653347135
+    },
+    {
+      "index": 50,
+      "tokens": 64437,
+      "ids_sha256": "f025caa088d1d5060d54da838734b4251ea9c89d313de0ccafb4fc4b29167fc1",
+      "native_seconds": 0.1807749709696509,
+      "fast_seconds": 0.006033445009961724
+    },
+    {
+      "index": 51,
+      "tokens": 19822,
+      "ids_sha256": "22d11ddd9a5a332de03ba926b1dd7dd7014a61a1212e24c3a863084990400af9",
+      "native_seconds": 0.039740366977639496,
+      "fast_seconds": 0.0016554150497540832
+    },
+    {
+      "index": 52,
+      "tokens": 20348,
+      "ids_sha256": "097325f28b95622a84627eb08d6b9b57c49f96dcf342a464dc1f7084d423bb00",
+      "native_seconds": 0.04014752997318283,
+      "fast_seconds": 0.001630991988349706
+    },
+    {
+      "index": 53,
+      "tokens": 22827,
+      "ids_sha256": "b6965bc88b7693350b303cc273e603d6bbe51d842f3c1cf56295d7219dd4d726",
+      "native_seconds": 0.05178019602317363,
+      "fast_seconds": 0.0020114940125495195
+    },
+    {
+      "index": 54,
+      "tokens": 23528,
+      "ids_sha256": "82f71d27a55d78cf931e798bb1cc0b244af561d0f7ac18cf7d715d43347ac43d",
+      "native_seconds": 0.05567005800548941,
+      "fast_seconds": 0.0020256839925423265
+    },
+    {
+      "index": 55,
+      "tokens": 89677,
+      "ids_sha256": "2888fc4a9ea4f00df96910d88857a1bd33b38a7e7a99f4453e66ff415fa3f700",
+      "native_seconds": 0.2495854619774036,
+      "fast_seconds": 0.007284876017365605
+    },
+    {
+      "index": 56,
+      "tokens": 128870,
+      "ids_sha256": "8d66631c8eadd75d500fac17fb25842fd37bfbd0785d76c7a85a8590774c9918",
+      "native_seconds": 0.3784529140102677,
+      "fast_seconds": 0.011170400015544146
+    },
+    {
+      "index": 57,
+      "tokens": 94108,
+      "ids_sha256": "ccd431de35a0453f177e56680c21ff5507adf8fe4bcb3397b667e01ca3b7d5ce",
+      "native_seconds": 0.2519649200257845,
+      "fast_seconds": 0.007922404038254172
+    },
+    {
+      "index": 58,
+      "tokens": 25515,
+      "ids_sha256": "c1d04ecbb0bbf71d701587528a071bd883724086cee48bb59eba74e4b929577e",
+      "native_seconds": 0.05743246298516169,
+      "fast_seconds": 0.0024260389618575573
+    },
+    {
+      "index": 59,
+      "tokens": 30020,
+      "ids_sha256": "0f779f044fc26252fbcd9fdd21853aa62865fff9913a5ddfea9ec03ee27a2de1",
+      "native_seconds": 0.07137661497108638,
+      "fast_seconds": 0.002443087985739112
+    },
+    {
+      "index": 60,
+      "tokens": 95902,
+      "ids_sha256": "0bd51dc01ca75bdaed46700a06ada2a3e90f00e5b18d48ca03ad56902f86b3e3",
+      "native_seconds": 0.279219354968518,
+      "fast_seconds": 0.0076438760152086616
+    },
+    {
+      "index": 61,
+      "tokens": 31883,
+      "ids_sha256": "c0673cdc9ae3902f1a889d3f8e297ebdaf084bae01b9b1e6e8f4a6f632614671",
+      "native_seconds": 0.07491960097104311,
+      "fast_seconds": 0.0029468099819496274
+    },
+    {
+      "index": 62,
+      "tokens": 144960,
+      "ids_sha256": "644aa3ac8034d35445a19776115f95c42cf71f1e72acf7fbebd5fdaebb34814d",
+      "native_seconds": 0.41886109398910776,
+      "fast_seconds": 0.01137496397132054
+    },
+    {
+      "index": 63,
+      "tokens": 33695,
+      "ids_sha256": "83a6fd918370d8c9135e9cd30efe77e85c47e5f9f1cbb934d129d77d0d244301",
+      "native_seconds": 0.08020190999377519,
+      "fast_seconds": 0.0033101800363510847
+    },
+    {
+      "index": 64,
+      "tokens": 99779,
+      "ids_sha256": "44ea9623f1a0b452d55d83d0fb385922cab1fc39e498f9081e8771c4042af557",
+      "native_seconds": 0.3040672409697436,
+      "fast_seconds": 0.010958787985146046
+    },
+    {
+      "index": 65,
+      "tokens": 45862,
+      "ids_sha256": "fbe771b854d391375b4ddb028a9c2b0b801c38456c991b93deb8d1f58a53555f",
+      "native_seconds": 0.11068682401673868,
+      "fast_seconds": 0.004530882986728102
+    },
+    {
+      "index": 66,
+      "tokens": 168384,
+      "ids_sha256": "00cfb7ec707cb22fd49e2fc64389679823cc424399759ea5d7cbbd004c9eacd5",
+      "native_seconds": 0.528677880007308,
+      "fast_seconds": 0.011147971032187343
+    },
+    {
+      "index": 67,
+      "tokens": 50079,
+      "ids_sha256": "b70db4a99414a690cefd8893fd62f9aa3f138ea73415f82ac1064a07348ef1ee",
+      "native_seconds": 0.13461911003105342,
+      "fast_seconds": 0.005246147979050875
+    },
+    {
+      "index": 68,
+      "tokens": 32685,
+      "ids_sha256": "764798aeb61fedc22f18c56cb861f0bba1c0e04d2815e14ba945ba1b09df8b24",
+      "native_seconds": 0.07293176196981221,
+      "fast_seconds": 0.0029872979503124952
+    },
+    {
+      "index": 69,
+      "tokens": 51772,
+      "ids_sha256": "20b7ced12e7ec51048e505ef448498248c77534e11edb2dd35bf385e015a40f6",
+      "native_seconds": 0.13212845602538437,
+      "fast_seconds": 0.004731361987069249
+    },
+    {
+      "index": 70,
+      "tokens": 55923,
+      "ids_sha256": "f80c5aef1e642254dcd0f4b1e78791f1f429dec6c28b25719aa1d93e7930bb81",
+      "native_seconds": 0.15801035903859884,
+      "fast_seconds": 0.004731178982183337
+    },
+    {
+      "index": 71,
+      "tokens": 53073,
+      "ids_sha256": "d037dc79dcb7db444d3429923b9e6627989d48cb1e9c8325f949b5a4a90b4099",
+      "native_seconds": 0.13408298697322607,
+      "fast_seconds": 0.004770783998537809
+    },
+    {
+      "index": 72,
+      "tokens": 65659,
+      "ids_sha256": "1a47937981fe78048b4786a7c7bee833d8e76f084f008d477839d781e43e7afa",
+      "native_seconds": 0.20262714102864265,
+      "fast_seconds": 0.005823470011819154
+    },
+    {
+      "index": 73,
+      "tokens": 54335,
+      "ids_sha256": "f44644a19bb9d33b7595b3acb8794577673d0439785c8bb0ece9dfff1c0121f9",
+      "native_seconds": 0.14572549500735477,
+      "fast_seconds": 0.0050444299704395235
+    },
+    {
+      "index": 74,
+      "tokens": 78101,
+      "ids_sha256": "0a2e043bdd46d736f3e44a8c5eed96566becc5f04c3402c744896353ed4fdd3d",
+      "native_seconds": 0.2006360680097714,
+      "fast_seconds": 0.006065859983209521
+    },
+    {
+      "index": 75,
+      "tokens": 36154,
+      "ids_sha256": "9dbfa5fa2ec237170f9f44b588a8308708e0c1b6a2daf6e59213464f8cbde0ca",
+      "native_seconds": 0.09817051398567855,
+      "fast_seconds": 0.003746320027858019
+    },
+    {
+      "index": 76,
+      "tokens": 170352,
+      "ids_sha256": "86af9d0677805eadb2680bc4cc47f81e9159e4d98d4b7ed4c17520d6626d884e",
+      "native_seconds": 0.5038781490293331,
+      "fast_seconds": 0.01094205304980278
+    },
+    {
+      "index": 77,
+      "tokens": 45885,
+      "ids_sha256": "e45461253a3ab866cc70dd679d0a8e6ed181d66f3686aae07f14383bfeb9ef27",
+      "native_seconds": 0.11566059599863365,
+      "fast_seconds": 0.004718839016277343
+    },
+    {
+      "index": 78,
+      "tokens": 20168,
+      "ids_sha256": "b303ee9ef041f9b1e1ff7bed18d64ebba784edc6f7253e573bb32fd9973a8bb4",
+      "native_seconds": 0.04017354198731482,
+      "fast_seconds": 0.001605028985068202
+    },
+    {
+      "index": 79,
+      "tokens": 37820,
+      "ids_sha256": "b1b998bfa10c9ac1e14c88a6fd789c06becdccaec165654274f6189ea30340c1",
+      "native_seconds": 0.09414350701263174,
+      "fast_seconds": 0.0036631549592129886
+    },
+    {
+      "index": 80,
+      "tokens": 29929,
+      "ids_sha256": "faa06ca7cc29daececdc4913836007fc422581fa6d35b27ead418b78b4c37f32",
+      "native_seconds": 0.08303911198163405,
+      "fast_seconds": 0.00286229100311175
+    },
+    {
+      "index": 81,
+      "tokens": 40451,
+      "ids_sha256": "e42515caa9c3c4effb424bd12aed4ac4ff8e3491a1e152fe347cf0916914886c",
+      "native_seconds": 0.09309937199577689,
+      "fast_seconds": 0.0035252320230938494
+    },
+    {
+      "index": 82,
+      "tokens": 42643,
+      "ids_sha256": "73eee17b3ff55f4782ce131c06082d508207e0ff55fb750d43731d7fb84a9a47",
+      "native_seconds": 0.10734765097731724,
+      "fast_seconds": 0.003861462988425046
+    },
+    {
+      "index": 83,
+      "tokens": 33966,
+      "ids_sha256": "220e0ab6c9b6f7361ac492501ba932430f094b7ae67bebb977404080c6328904",
+      "native_seconds": 0.09181540500139818,
+      "fast_seconds": 0.003286327002570033
+    },
+    {
+      "index": 84,
+      "tokens": 50340,
+      "ids_sha256": "f3e40a540496f3340b4dbfde479be8d2e50f37f85c1a2bbca45baec04461e57e",
+      "native_seconds": 0.1557903370121494,
+      "fast_seconds": 0.004699647950474173
+    },
+    {
+      "index": 85,
+      "tokens": 53659,
+      "ids_sha256": "4f9dd945bc2391f07b035738484b3fc3e6cd857feafc8b2586777f08587292e8",
+      "native_seconds": 0.15128787199500948,
+      "fast_seconds": 0.004411894013173878
+    },
+    {
+      "index": 86,
+      "tokens": 59413,
+      "ids_sha256": "18a5e5637a6d614cc7b02ac2b1ee4043ad47f155b15fadd64015bca05baddbe8",
+      "native_seconds": 0.17503239295911044,
+      "fast_seconds": 0.005717400985304266
+    },
+    {
+      "index": 87,
+      "tokens": 53782,
+      "ids_sha256": "4bd202dce45c72994eaf739092da7dd82369cf684a139f71027cb0e53656fa41",
+      "native_seconds": 0.14008150401059538,
+      "fast_seconds": 0.004564051982015371
+    },
+    {
+      "index": 88,
+      "tokens": 61452,
+      "ids_sha256": "4174c71d51cc4936eb5d0beb1c1e415d7cf99f2bd2f6ee8e26a50620f5aa6126",
+      "native_seconds": 0.17950339301023632,
+      "fast_seconds": 0.005727429001126438
+    },
+    {
+      "index": 89,
+      "tokens": 56942,
+      "ids_sha256": "9ded6a69aa614472db6b8e6fe467467af66290df94c0f4a41b021f285743e78b",
+      "native_seconds": 0.1517484450014308,
+      "fast_seconds": 0.0046999219921417534
+    },
+    {
+      "index": 90,
+      "tokens": 58429,
+      "ids_sha256": "1e38d15a42ca255a4f5fee33a8c464a15d81b13218804e67e89ec4df20f0603c",
+      "native_seconds": 0.15345007402356714,
+      "fast_seconds": 0.004886473005171865
+    },
+    {
+      "index": 91,
+      "tokens": 59937,
+      "ids_sha256": "a0c8cc87a303a04f4b2d674f92f67a22c0d15a82f12324c1fa26b83b3ee17dde",
+      "native_seconds": 0.16648782399715856,
+      "fast_seconds": 0.004845157964155078
+    },
+    {
+      "index": 92,
+      "tokens": 67446,
+      "ids_sha256": "1a727108027ca0fbcbe5841e3f41441945608f7477cfa32457d5028dcf65427b",
+      "native_seconds": 0.20956136198947206,
+      "fast_seconds": 0.005460524989757687
+    },
+    {
+      "index": 93,
+      "tokens": 142443,
+      "ids_sha256": "eb0b7342ce95a83bc0c5783dcba030cfbaaddad6a5fe8f79c919fc232714e22b",
+      "native_seconds": 0.4626198459882289,
+      "fast_seconds": 0.010664776957128197
+    },
+    {
+      "index": 94,
+      "tokens": 143959,
+      "ids_sha256": "9bee5492f5cce61beec3668d372abfe206d7896f99537faa65fc82ba37c44d7d",
+      "native_seconds": 0.4603126349975355,
+      "fast_seconds": 0.011292073002550751
+    },
+    {
+      "index": 95,
+      "tokens": 162187,
+      "ids_sha256": "f1ae6cda67e98ca33e6626261cede7052e543f0b34115ff98e3a64c30554c6e9",
+      "native_seconds": 0.5312492849770933,
+      "fast_seconds": 0.010835976980160922
+    },
+    {
+      "index": 96,
+      "tokens": 37656,
+      "ids_sha256": "72908a5d8cf3ab5c5cb9dc9c14326e1497ce9d63c3b7fc51c5e06185e4eb129c",
+      "native_seconds": 0.10873455298133194,
+      "fast_seconds": 0.004125610983464867
+    },
+    {
+      "index": 97,
+      "tokens": 56125,
+      "ids_sha256": "3177ca6dd13d72cf268ace866d5be20dcfd530aec21087632b195c9ace850b3d",
+      "native_seconds": 0.16099821700481698,
+      "fast_seconds": 0.004872308985795826
+    },
+    {
+      "index": 98,
+      "tokens": 57427,
+      "ids_sha256": "0924d0a218d608fae32638f308d7c2026f804dde47a1cfe48596aef8a92bde9b",
+      "native_seconds": 0.185680667986162,
+      "fast_seconds": 0.005020917975343764
+    },
+    {
+      "index": 99,
+      "tokens": 20891,
+      "ids_sha256": "fe58d95d883c4a76940334ffc7e185054ff1e9152d0adfc53bedc4dc06259e85",
+      "native_seconds": 0.044762018020264804,
+      "fast_seconds": 0.001805259962566197
+    },
+    {
+      "index": 100,
+      "tokens": 57939,
+      "ids_sha256": "83a3b1cb35cd658ea92b1b73dcca3cda4e6edff9b5461e3333e73d2931c51d57",
+      "native_seconds": 0.16907821403583512,
+      "fast_seconds": 0.004799467045813799
+    },
+    {
+      "index": 101,
+      "tokens": 21517,
+      "ids_sha256": "c994f0233cc9331e7abfaac95e612562650586859d78e35179c68cd1eb3d4af5",
+      "native_seconds": 0.04922785499366,
+      "fast_seconds": 0.002024963963776827
+    },
+    {
+      "index": 102,
+      "tokens": 60078,
+      "ids_sha256": "7bc18da5859da058f4c22ac86842791414cc65b1d54434e5997aff0e4bd7f2be",
+      "native_seconds": 0.19516451697563753,
+      "fast_seconds": 0.0051197229768149555
+    },
+    {
+      "index": 103,
+      "tokens": 192469,
+      "ids_sha256": "a8ecaf91a12db6075eb99b8aa9928fde0419786a485c89348b46f7638f8a35df",
+      "native_seconds": 0.5946778659708798,
+      "fast_seconds": 0.011515839956700802
+    },
+    {
+      "index": 104,
+      "tokens": 24921,
+      "ids_sha256": "2faa616a1cea3da63f0c38db7fc44488db9ffecda7cffd759be30fe690c15937",
+      "native_seconds": 0.0702831469825469,
+      "fast_seconds": 0.005065625999122858
+    },
+    {
+      "index": 105,
+      "tokens": 61448,
+      "ids_sha256": "579e46f2a7b16c1c53a3764cbfffa64dea3b1a4d8ad92d0ed94e139c23f3611f",
+      "native_seconds": 0.2050698550301604,
+      "fast_seconds": 0.006952591997105628
+    },
+    {
+      "index": 106,
+      "tokens": 27964,
+      "ids_sha256": "87e11f7523ccd8304ad954f7a3a16cb48a5296b769f169b97c4e9d0648849d10",
+      "native_seconds": 0.09436562500195578,
+      "fast_seconds": 0.0028053249698132277
+    },
+    {
+      "index": 107,
+      "tokens": 32211,
+      "ids_sha256": "5b7b1641311cecaaef859c69d4602c2b783915701a576513975126eb44024926",
+      "native_seconds": 0.08687877899501473,
+      "fast_seconds": 0.0028467249940149486
+    },
+    {
+      "index": 108,
+      "tokens": 35098,
+      "ids_sha256": "a6462aa24a1f0247011798c71a193d3fc380d04da247efb7cb89db86271e8d47",
+      "native_seconds": 0.10179009794956073,
+      "fast_seconds": 0.005070769984740764
+    },
+    {
+      "index": 109,
+      "tokens": 37644,
+      "ids_sha256": "0e41e65c6dd59010de4cadda4fd3675246d7751a78b124267c21c949294c9857",
+      "native_seconds": 0.09308701602276415,
+      "fast_seconds": 0.003160124004352838
+    },
+    {
+      "index": 110,
+      "tokens": 38326,
+      "ids_sha256": "0936c381999b0e165a5382ac45c11654e787504443fa45cb0015629d6a0bb5df",
+      "native_seconds": 0.10745605203555897,
+      "fast_seconds": 0.003360034024808556
+    },
+    {
+      "index": 111,
+      "tokens": 39087,
+      "ids_sha256": "06b6386ff9c3d607b31ebaaf38e7e82f5c55fd788b457088b144589535411cf7",
+      "native_seconds": 0.1268116789869964,
+      "fast_seconds": 0.0033439729595556855
+    },
+    {
+      "index": 112,
+      "tokens": 41329,
+      "ids_sha256": "9e5bd796cb8a881897c2e7b2631487782947433e3bf30106735b2c8072500ecc",
+      "native_seconds": 0.12656621303176507,
+      "fast_seconds": 0.0038570319884456694
+    },
+    {
+      "index": 113,
+      "tokens": 18136,
+      "ids_sha256": "29a43a93e4538da1a34d6129540df2f18a126c8dd25f6987056754f6e9ff9c04",
+      "native_seconds": 0.04442432097857818,
+      "fast_seconds": 0.001803110004402697
+    },
+    {
+      "index": 114,
+      "tokens": 46390,
+      "ids_sha256": "957d8ff9b5a0a68b60691fc0f2bdf1e6e794dd45fc3a27f942bfd9715694c262",
+      "native_seconds": 0.13132222602143884,
+      "fast_seconds": 0.0038582590059377253
+    },
+    {
+      "index": 115,
+      "tokens": 45294,
+      "ids_sha256": "639f52e8d630833325bb64dde7cee40afed5c4c1f2c3db419a701113d85d3b2b",
+      "native_seconds": 0.13250576402060688,
+      "fast_seconds": 0.0036834889906458557
+    },
+    {
+      "index": 116,
+      "tokens": 47951,
+      "ids_sha256": "a8c00fffe7e8de9dca464528f4cab1454e14b78ba8f9adb32bb4dbec4f369201",
+      "native_seconds": 0.13318682700628415,
+      "fast_seconds": 0.0036203619674779475
+    },
+    {
+      "index": 117,
+      "tokens": 46863,
+      "ids_sha256": "79bd6cfac0b91b9d4a403d9d0b1859538b1640329e26e2c4040e38f2827c7163",
+      "native_seconds": 0.14920604100916535,
+      "fast_seconds": 0.004170336003880948
+    },
+    {
+      "index": 118,
+      "tokens": 49918,
+      "ids_sha256": "75bccdc3abf3a50bdc9b2d1c2b66d9b79aca9f48667fdc0ec4f8fae8238eed76",
+      "native_seconds": 0.14967430604156107,
+      "fast_seconds": 0.0041720300214365125
+    },
+    {
+      "index": 119,
+      "tokens": 47339,
+      "ids_sha256": "670cbb55d331468484bb00fa363b74c0884665e124afdb404005839f657ead99",
+      "native_seconds": 0.13855940598296002,
+      "fast_seconds": 0.004141172976233065
+    },
+    {
+      "index": 120,
+      "tokens": 49512,
+      "ids_sha256": "1ef312e9ad2b7e7b53bd9647125e5d473eaab1d51304083354db272a77e13337",
+      "native_seconds": 0.1582396570011042,
+      "fast_seconds": 0.004133955982979387
+    },
+    {
+      "index": 121,
+      "tokens": 52849,
+      "ids_sha256": "2456cf4d6352b867e365643dd32e5f7e56428d7f87141b40f5408663a9f3dbd1",
+      "native_seconds": 0.15216082299593836,
+      "fast_seconds": 0.004277384025044739
+    },
+    {
+      "index": 122,
+      "tokens": 143726,
+      "ids_sha256": "cb72d30f371330874de2b39a3ef16e5188d19645e6d5b7e586ac0ef7ffd324ee",
+      "native_seconds": 0.4783882080228068,
+      "fast_seconds": 0.014867556979879737
+    },
+    {
+      "index": 123,
+      "tokens": 55120,
+      "ids_sha256": "1c765fec05e9628174832668d33fcfbcf56a3bbefd88c62de8dea050a9d844ce",
+      "native_seconds": 0.16316336899762973,
+      "fast_seconds": 0.004984307975973934
+    },
+    {
+      "index": 124,
+      "tokens": 59624,
+      "ids_sha256": "7a92799cf6f1af90d0df38357b80d3b9fb16d3b604b6ec92df8862289e07ecc1",
+      "native_seconds": 0.21701934398151934,
+      "fast_seconds": 0.006645103974733502
+    },
+    {
+      "index": 125,
+      "tokens": 63029,
+      "ids_sha256": "ec9796d8ce9dd8a72c72f44d77387a8b191a1659b2370bf9b690ef90efc57c8c",
+      "native_seconds": 0.1773915949743241,
+      "fast_seconds": 0.005249570996966213
+    },
+    {
+      "index": 126,
+      "tokens": 150719,
+      "ids_sha256": "7803a9668afc071c0f5a7f9e2f660177187c0424c1302db45f878be506fe8df4",
+      "native_seconds": 0.43989939597668126,
+      "fast_seconds": 0.011648804997093976
+    },
+    {
+      "index": 127,
+      "tokens": 20159,
+      "ids_sha256": "489a0d8713f2e0c3ab225ccaecec72f1e8e11df7b3e2607a86d155044559bc0a",
+      "native_seconds": 0.041333574044983834,
+      "fast_seconds": 0.0022319399868138134
+    },
+    {
+      "index": 128,
+      "tokens": 18328,
+      "ids_sha256": "cd433d59d769059a26b175329f8b2ab8e4e8c451dbff491d0aa9c17d60310151",
+      "native_seconds": 0.04603907698765397,
+      "fast_seconds": 0.0014850120060145855
+    },
+    {
+      "index": 129,
+      "tokens": 39870,
+      "ids_sha256": "65ddda94805542243182a99b2e0c6e9b75fd4ca9f229620441bce3cf77f94026",
+      "native_seconds": 0.09483538201311603,
+      "fast_seconds": 0.002917534962762147
+    },
+    {
+      "index": 130,
+      "tokens": 26121,
+      "ids_sha256": "c82a953c43ee2ba4cc4c1ef31ae6d88eba055cea01d6aa1a677822241297d28f",
+      "native_seconds": 0.06823181902291253,
+      "fast_seconds": 0.0025117049808613956
+    },
+    {
+      "index": 131,
+      "tokens": 26457,
+      "ids_sha256": "b040aad6e351f5caa3fbe91cc0f4631cf50b59c6ec2a75c1a58e6cbf2fbc0699",
+      "native_seconds": 0.06437805097084492,
+      "fast_seconds": 0.002453026012517512
+    },
+    {
+      "index": 132,
+      "tokens": 184296,
+      "ids_sha256": "f59ee4ea662a39d310899af690743c84c93ec54d43888a3f6d6affaaeb7cea8d",
+      "native_seconds": 0.5610115909948945,
+      "fast_seconds": 0.010899289976805449
+    },
+    {
+      "index": 133,
+      "tokens": 45285,
+      "ids_sha256": "481e6deb322923cdce2eae6c89179495ff2bd9e86617bde36f0cb59f9372a415",
+      "native_seconds": 0.15208030497888103,
+      "fast_seconds": 0.004323465982452035
+    },
+    {
+      "index": 134,
+      "tokens": 30649,
+      "ids_sha256": "f8161fed3710b992b3bc37d441ddc9065e4544545e87959521bbf1903eb4b18c",
+      "native_seconds": 0.09696814796188846,
+      "fast_seconds": 0.002812933991663158
+    },
+    {
+      "index": 135,
+      "tokens": 48573,
+      "ids_sha256": "7ca64ef0b702235e804b9dfab42caccc6602b38bb7cf183743c210ba98492bec",
+      "native_seconds": 0.12360686395550147,
+      "fast_seconds": 0.003772569994907826
+    },
+    {
+      "index": 136,
+      "tokens": 33537,
+      "ids_sha256": "6e7a6ca426e074b7ceda38b528266c4373b05a65df689644246c809f411b4638",
+      "native_seconds": 0.0799307840061374,
+      "fast_seconds": 0.0028753220103681087
+    },
+    {
+      "index": 137,
+      "tokens": 33819,
+      "ids_sha256": "c77e6c1946486414153d85bf1e42ba2883ada622715bf07be8121a626c3ecbe6",
+      "native_seconds": 0.08638189604971558,
+      "fast_seconds": 0.0028473319835029542
+    },
+    {
+      "index": 138,
+      "tokens": 51571,
+      "ids_sha256": "6ed23d5f8b6f2a247e5d31e469e70fd130a8260208215716783259ab07e947cf",
+      "native_seconds": 0.13535157300066203,
+      "fast_seconds": 0.00398024101741612
+    },
+    {
+      "index": 139,
+      "tokens": 37493,
+      "ids_sha256": "68d78371a17b0ac5cb800b9417e4f4cc706b3c362f4c460e83b1f1ef732c0561",
+      "native_seconds": 0.11181309598032385,
+      "fast_seconds": 0.003485745983198285
+    },
+    {
+      "index": 140,
+      "tokens": 37801,
+      "ids_sha256": "b61a41e163e5c44ee5dad28693ee820cc39ae33995802910a3c3a69af6977cd5",
+      "native_seconds": 0.09544772404478863,
+      "fast_seconds": 0.0032031949958764017
+    },
+    {
+      "index": 141,
+      "tokens": 53091,
+      "ids_sha256": "71d0290af974e12d365bc89236cc4b398a27735a40bcb2f891f979fed1c8a4ea",
+      "native_seconds": 0.15688060998218134,
+      "fast_seconds": 0.004400431993417442
+    },
+    {
+      "index": 142,
+      "tokens": 44482,
+      "ids_sha256": "c8ff5b8bb214080383a6eae2b9af6d1f8c2f83eca0cd44f4ec33cfb193f2aec1",
+      "native_seconds": 0.11634008697001263,
+      "fast_seconds": 0.0039749680436216295
+    },
+    {
+      "index": 143,
+      "tokens": 55212,
+      "ids_sha256": "3318b503cfcdf993e114ad7dd5ebd590f55da8fb98f8a7b06ad5b970a9567558",
+      "native_seconds": 0.14457866904558614,
+      "fast_seconds": 0.004379908961709589
+    },
+    {
+      "index": 144,
+      "tokens": 46371,
+      "ids_sha256": "e6dc8503e09203d8368d315c1c8ea1e3c5f0457dd086afdeca71368602a7fe9e",
+      "native_seconds": 0.1410416559665464,
+      "fast_seconds": 0.004146702995058149
+    },
+    {
+      "index": 145,
+      "tokens": 187466,
+      "ids_sha256": "5a8637498bf2a98112a83f26db66b25e47fe4ac500d9965b261608390cb28e3a",
+      "native_seconds": 0.5600853429641575,
+      "fast_seconds": 0.010947404021862894
+    },
+    {
+      "index": 146,
+      "tokens": 21901,
+      "ids_sha256": "9996708abc0210cd1cecdac51f3fdb31774e72d03c21589e11216fb60e5aedc0",
+      "native_seconds": 0.06382360600400716,
+      "fast_seconds": 0.0036437870003283024
+    },
+    {
+      "index": 147,
+      "tokens": 37705,
+      "ids_sha256": "d0482510ade25c8a97eae143ee4f8960eeb4bcbfaf6a8d2397f9df330f337112",
+      "native_seconds": 0.12488973297877237,
+      "fast_seconds": 0.0036566390190273523
+    },
+    {
+      "index": 148,
+      "tokens": 24045,
+      "ids_sha256": "b7ac2fd8aac1710c85013792c6fe77825a09f6a08b19bd020de7bd7cfbf47e27",
+      "native_seconds": 0.05617992201587185,
+      "fast_seconds": 0.0022318909759633243
+    },
+    {
+      "index": 149,
+      "tokens": 42778,
+      "ids_sha256": "1bca9f8245ebc73c773c5a1500a9af1323c4aabf027296d8f5712da911639d92",
+      "native_seconds": 0.11070169101003557,
+      "fast_seconds": 0.003788504982367158
+    },
+    {
+      "index": 150,
+      "tokens": 26170,
+      "ids_sha256": "cb74da71bd3a95420fc4bbe6e49f31e74518c6a89af541c0d5fe9635d773aed2",
+      "native_seconds": 0.06180290802149102,
+      "fast_seconds": 0.002309264033101499
+    }
+  ]
+}

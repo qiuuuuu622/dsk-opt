@@ -1,0 +1,12 @@
+{
+  "status": "failed",
+  "group": "P-GC-ALL-w4a8-r1",
+  "time_unix": 1794820123.63579,
+  "pids": {
+    "frontend": 429205,
+    "worker": 429206,
+    "replay_launcher": 429207
+  },
+  "error": "Triton3.6 compact indexer missing mbarrier.allocate_mbarrier during startup Graph profiling",
+  "formal_requests_sent": 0
+}

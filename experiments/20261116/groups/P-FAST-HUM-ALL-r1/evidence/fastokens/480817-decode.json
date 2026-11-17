@@ -1,0 +1,7 @@
+{
+  "pid": 480817,
+  "kind": "decode",
+  "version": "0.3.6",
+  "time": 1794824464.860543,
+  "backend_class": "<class 'fastokens._ConfiguredTokenizerShim'>"
+}

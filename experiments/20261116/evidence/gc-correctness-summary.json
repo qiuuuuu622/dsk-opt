@@ -1,0 +1,32 @@
+{
+  "routed-accuracy": {
+    "all_pass": true,
+    "cases": 9,
+    "world_size": 8,
+    "min_bf16_cosine": 0.9770392775535583,
+    "max_processed_diff": 1.8046725373310757e-05,
+    "max_processed_relative_l2": 0.006008362863212824
+  },
+  "routed-edges": {
+    "all_pass": true,
+    "cases": 4,
+    "world_size": 8,
+    "min_bf16_cosine": 0.9770392775535583,
+    "max_processed_diff": 1.8046725373310757e-05,
+    "max_processed_relative_l2": 0.006008362863212824
+  },
+  "shared-accuracy-auditfix": {
+    "all_pass": true,
+    "cases": 9,
+    "world_size": 8,
+    "min_processed_cosine": 0.9999827742576599,
+    "max_processed_diff": 1.7180379096037868e-05
+  },
+  "shared-edges-auditfix": {
+    "all_pass": true,
+    "cases": 4,
+    "world_size": 8,
+    "min_processed_cosine": 0.9999921917915344,
+    "max_processed_diff": 7.962410829787103e-06
+  }
+}

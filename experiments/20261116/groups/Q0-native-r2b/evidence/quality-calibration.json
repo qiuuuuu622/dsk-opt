@@ -1,0 +1,20 @@
+{
+  "Q0-native-r2b": {
+    "n": 150,
+    "exact_texts": 0,
+    "same_tool_name_sequence": 118,
+    "same_parameter_name_sequence": 115,
+    "median_common_prefix_characters": 46.5
+  },
+  "QH2-finalize-r1": {
+    "n": 150,
+    "exact_texts": 0,
+    "same_tool_name_sequence": 117,
+    "same_parameter_name_sequence": 115,
+    "median_common_prefix_characters": 45.5
+  },
+  "sampling_audit": {
+    "requests": 150,
+    "all_temperature_zero_seed_1234": true
+  }
+}

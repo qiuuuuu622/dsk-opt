@@ -1,0 +1,11 @@
+{
+  "classification": "completed replay but not accepted as all-optimizations proof",
+  "observed_diagnostic_paths": [
+    "Humming W4A8",
+    "tiled finalize",
+    "head-row exchange"
+  ],
+  "compact_indexer": "not observed in diagnostic; original hook required next_n1, incompatible with native DSpark verify Bx6",
+  "followup": "P-ALL-w4a8-spec6-r1",
+  "do_not_claim": "three optimizations all hit in this run"
+}

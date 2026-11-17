@@ -1,0 +1,16 @@
+{
+  "group": "P-GC-ALL-w4a8-r2",
+  "request": "user direct GC native W4A8 + output finalize + compact indexer + headrow",
+  "requests": 150,
+  "qps": 0.45,
+  "order": "original first150",
+  "sampling": "original plan temp0.8/top_p0.95/no seed",
+  "model": "/model",
+  "environment": "isolated E1 Torch2.11 CUDA13.0",
+  "native_E1_full_replay": "not scheduled per user steering",
+  "finalize_semantics": "native GC routed combine; fused BF16 scale then shared add preserving rounding",
+  "comparison_limit": "E0 comparison includes environment and activation quantization differences; not pure GC causal isolation",
+  "triton": "3.7.1 per explicit user request",
+  "previous_attempt": "r1 startup failure; zero formal requests",
+  "indexer": "original source restored; no Triton3.6 compatibility shim"
+}

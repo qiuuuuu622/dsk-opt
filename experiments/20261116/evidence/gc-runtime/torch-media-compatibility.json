@@ -1,0 +1,11 @@
+{
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.x required; main0.28 tied toTorch2.13",
+  "torchcodec": "main0.17.0+cu130 can be retained per upstream compatibility>=2.11; import still must be verified",
+  "sources": [
+    "https://github.com/pytorch/vision#installation",
+    "https://github.com/meta-pytorch/torchcodec#compatibility-with-torch-versions"
+  ],
+  "state": "planned, not yet installed",
+  "ptxas": "default aligned to cuda134 used by passed GC tests and current build"
+}

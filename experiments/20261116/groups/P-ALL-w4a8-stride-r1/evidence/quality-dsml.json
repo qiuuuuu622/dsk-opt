@@ -1,0 +1,2721 @@
+{
+  "scope": "structural proxies only; no business labels; exact-output differences require baseline-repeat calibration",
+  "groups": {
+    "baseline": {
+      "requests": 150,
+      "success": 150,
+      "empty": 0,
+      "truncated": 0,
+      "tool_calls": 0,
+      "malformed_tool_json": 0,
+      "repeated_suffix_flag": 0,
+      "dsml_calls": 170,
+      "dsml_unbalanced_flags": 0,
+      "dsml_unknown_tools": 0,
+      "dsml_duplicate_parameters": 0,
+      "dsml_nonstring_json_fallbacks": 0,
+      "rows": {
+        "request-87813df142f71e8db882": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 319,
+          "sha256": "8248d2716f5892ecaafebb4c8668d27a1ccaa9ec4c44420d69ef72ec25e53cdc",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-ac1e5e7fc840aa5d46d5": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 373,
+          "sha256": "ea787abc296141194959f97a0c5219ece93a824a63b7e917a872ca8dd7285669",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-dfab49d47846e5e32258": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 431,
+          "sha256": "62b0fc2952ee39577e65095f0178c2891ad3d73639000d4a8e945830be24e21e",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-d0f184e6e826e2a32a54": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 405,
+          "sha256": "fd5f202a16aeb85cd6ab627fe8cecebc70954abd17cce8574c031a18a425226d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-15253ec0f17b060de7a7": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 492,
+          "sha256": "278afe00f04aa860ccbfcd9d71382b1c50497c5c21292662096e513e3c4dd1e6",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-31ba96aac6901bf47417": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 507,
+          "sha256": "8a5cd4357ec30782692f5202d2ac147e1297a8a13894e98596c9e425810defb0",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-9588cc1b8e7ec115a5db": {
+          "dsml_calls": 3,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 397,
+          "sha256": "eac3b0f1f1e7b923e46811ce05709dc0d5d2b586e6ee09b9e4cf58f821219c6f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-858c7457625a409e510b": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 962,
+          "sha256": "4bee4feb70f908b0265f70243a68707a41c25860c0febca81f71a5b9e1cd2de1",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2778c3bb4fe4e8fadc42": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 810,
+          "sha256": "7f5002520e0c9e5622c255939de2d4c3004a4eceecde6fdc2a766f684513ccb7",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-1a431a239b79173efa8e": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 268,
+          "sha256": "44d052eb028d7c22c36171763a7dd6555329ad302cbdfd0e5811504970237392",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-1c170a2c9aac11a7f72a": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1197,
+          "sha256": "facd379f457f0b31dbd24ddbacb2d8959286db4f6b2bebfebf27afe0b755a3f7",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-29467df07ec8cf383e12": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 843,
+          "sha256": "adcc97ccb434ddf6a7a62f60649eabde88906de04d6d1288b2d2380439da0555",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-37f0f4bb7d0ca5b64084": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 579,
+          "sha256": "4e1cdd45f35611267f94f2b1f7a77650f0c6085e6e53b0e60427101d1061564d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-3ae6e2f56c433f725c77": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1186,
+          "sha256": "659ed630560cf94fe01d0b0ef09bd781c1bff67cb13c4f5f06ba62afc5507d3d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-34c1a8e6bebfc221d187": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1403,
+          "sha256": "d922431fa100f26c104c4eaad160a530c530c85bf41293e83f79604532200f94",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-06a0221140f4d3ae7d8a": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 4867,
+          "sha256": "ad3dd1b2383509f3ac6755948363fba8da84862be8aa11da1678f93bd32808e6",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-40f0d8b4448c51abd6fa": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 177,
+          "sha256": "96d072ffcd53ae055f7be3fe7c1e09c0e3f6f1825b1fd4ba4051fabd88e606b2",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-8a7ab8e8f6346e96ae4d": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 343,
+          "sha256": "d2fff2134a666540df5bc1f45a3bf1c1adf9cc8129a9196a15971d63eee74ba8",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-063d2a4682834514c324": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 576,
+          "sha256": "cbb5e2022a9bca0bac4223e69cddf91f593da481804395785f0b5400553faa71",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-9e402d85e7d7ef31bc62": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 405,
+          "sha256": "0d750ef717cec6cebda6666ddf05f243caec8fc86dea7f17150ca71c9d19267d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-6bb7005e608cac216a36": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 559,
+          "sha256": "1dd1cf95a61f2faa6f323e00eb2eb7a8b06aceba6ffa6f0d5659a0d3b79d2c73",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-a77e84b1b34b936c492a": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1194,
+          "sha256": "ee92ff5f925161411116de476e89f7c1e2e97020a3dc77f55e73c899ce547dd8",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-015774c79de4cbf517be": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1462,
+          "sha256": "ca27c7a565d7809229708fd267d594d9844a74443dc69876ec6c6e7003df7afe",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-67b347efa638287d4828": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 200,
+          "sha256": "ad646c186c16ee693b3dd1f5ab8cb31251af5e187e4b109d48d9d37014cc49bc",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-149aef041138eac26576": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 2064,
+          "sha256": "5f54339e264325bd3a16e45f30d6e199ed4c1e6c8b29cc7c67dbb8e532ad9e7f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-ae177632499069743e4f": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 2454,
+          "sha256": "9d19b86018f7c879eaf29eaa8a881a6bd3a83130b9be8511dd0081daebbdc0e6",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-bc48b7bce976d1b312a1": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 2126,
+          "sha256": "d1394fc184eaab1dbf0d0a6753f299045c056e9777ab052f3a27b6d39370f009",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-cf9621b55f6e5e2a5ef9": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 677,
+          "sha256": "33104ec8d49e78f533f405839ce31524be71ad5469126d73f0fedc8a8735cb7c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-5b43bcaa6e010db78349": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 458,
+          "sha256": "7b67ea8b27f50bda719ba2dab96d2e8b793aab25bdad56300a172cf2ea79c890",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-4d9137104a4f4e9df27a": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 279,
+          "sha256": "5edbd552effb83890c5e78d7b00a295fdd614677c58e934ba942747de88e51f4",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-5416d5b0fdcd45d980d3": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 4318,
+          "sha256": "643ff1c3843e5395b05238528fcdb01f353ceb04087fd1301839e645dd329a8e",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-c4b659f663710079e65a": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 428,
+          "sha256": "ff88e3177e8deee441926194b6d0bed3f6af3a24a00cd5ae8e66c432afbc7b41",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-4cadfeac31b4f5a02c64": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 310,
+          "sha256": "857e1ab722f496f0369613583bfbda6d0b1441d9ebdc06913676378dfdb6af0c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-034f750710eaa67adff8": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 412,
+          "sha256": "f3071f4135df2e167652d3a78073bc6b6d31d07f86ad0f6cce274500edaaaa3d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-eb38830bd1e861959e94": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 460,
+          "sha256": "3dd58b7be6615ab265930e4d42ac2c3ea97d1ec9ab3d23f06151d6926b85337f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-44b781ab379e782b782f": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 369,
+          "sha256": "17487e8f917c7cd746d4327c71fa7387f1bfc7e5e31f19c74019cc89318b4bbf",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-50eb6295d67e30b512e7": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 747,
+          "sha256": "0d9645a7f135f2c825274ef32fe56dca394d669b30d8723619ea477c6b4dac2a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-31a7af4dd401fdd2cdec": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1075,
+          "sha256": "446d1c6cb7f873256d5cc34d4e1dcb28402bc311c5c0179b25633eb9f6da9d75",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-bb9db0258df9393acba6": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1477,
+          "sha256": "1cd25648ed8129ea5f6bc0c25fbd3e76d3229d08e40d2c912c4923272c106d25",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-75707a34913be27474b8": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 334,
+          "sha256": "c8354557722ed063eba02a8c20c679fd01eb00d51d3f9ca3421a77e29745cdce",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-de15414a8ae90f076c21": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 2217,
+          "sha256": "a354dc3c8009390718781a33c8c4ee2a1c27a7141bbcb1f7034f06a5c8cd264c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-35aa7cf472e66447b040": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 287,
+          "sha256": "09222d86288f507c209f6e1a9cc7dd59a4977ffc49930313d8b5cb657305bf26",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-60230d49a005de9ef200": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1763,
+          "sha256": "fdead241742183bdc77e1d8ef7dd6527e12a92b45c5a93125963dbeae7d60af5",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-5d2987d9433adc4e4ee1": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 506,
+          "sha256": "5691a39b207b6db6ccce843604c7124ada1c98771111353b7a2b264bf75022a5",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-258ef40355e3d8fcc608": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 3084,
+          "sha256": "da57e22dfd2353b056b3796f2585597ea873047ff9496dd86ca1537a101cea18",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-bb93d9aed95b2e024974": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 103,
+          "sha256": "4c071c4309692b87212a91315f48ec9e2e257fa9e8f16cbcf48d9452feaa7562",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-c8aea5297c80d151df50": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 96,
+          "sha256": "2d0ecf0608be033da70bedfd6ccf4e72a2843f5e36aa0eb8b8bb7fc90b8409e9",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-bde67771ded31ecb0041": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 344,
+          "sha256": "bfad24cf559957d5cfa99d49217cf5bb1fcaaa09410599dc381e0daed7ce0a7d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-019bed0c1a815a399574": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 366,
+          "sha256": "7ff557eb5f24a39b929ce2df21dec493b688677c1196377c1da581ea9dbef0f3",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-fa120e147b50662372d6": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 429,
+          "sha256": "9565c566f99931d1fe71d65c25ad884db26b955ecd566ac650191daa65903ab8",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-6f0b00da3ce491ee1ae4": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 485,
+          "sha256": "fa126778a58e46fa8a8752b3f07242cb35ab603db80486cb393718a7284dae0a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-ba960c0447c77a54ec37": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 555,
+          "sha256": "f6ec24408dccd61ec509221d9744c3a3e3e54bf0b060a0f1b06455ef993a916c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-988cc9caa9af4cb377f7": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 374,
+          "sha256": "2a04e70b04e7f8d76d31681a56560ea1272a687f40534d5b73c68ca450d6a863",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-079c2392883289a3fdec": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 3372,
+          "sha256": "bc3c5374a582d7a2eed461524a12f1463564f5d18d5e63139f71c1670ff5819e",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-c49f19c6289c9d8546dd": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 777,
+          "sha256": "3657da96d4bf28e36720a4df2cfc6d31cfc5793e709bf5f87721676c43ae6aba",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-08461652eff452f0a2fa": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 459,
+          "sha256": "9b2eec1e3b1cf42703bcba48b9b9524c07c9f95c1e9ad0440be77978638ecdc5",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-08b5f0dce6319815702b": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 402,
+          "sha256": "3bf7e03c09430fae4b1de306312d3f1cccdb59a31f2cbd33775ef18c316fcbe9",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-e077f738904480a3e824": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 440,
+          "sha256": "225455fed8e3b47c55a4a80f08f28593cd2a7b08b858250abf71908734ed1622",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-3af2d32b3859a4d07911": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 472,
+          "sha256": "bdec8e336389b66b832bc6b7669f4bcc6b7e20070e9e39d7e86375879126eb2f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2f76476bb66528fbef53": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 246,
+          "sha256": "6e00f1438f9343691242c8893d9c7c8b0cc1a092636f0bdb89f9e24a0df3d6e4",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-43db21d112e495a79598": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 878,
+          "sha256": "f09f9a2d980fefc2b4adcc299873b995fb29bd6d4f996f69082fe2cf1756f5b0",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-dcf6ec0bfc54735bd7c9": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 526,
+          "sha256": "37116cec60df18996faeb10f57dff0fcc8334bb7d093f6fa1706b09d45ad1fd2",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-de165e189acb9fc006fa": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 452,
+          "sha256": "1fe23062cdfd926a7d0230f65b67de45dc303657ae13f8371fb120e98b7e2e30",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-e09f7af9dbb0c4b89057": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 545,
+          "sha256": "770db093c9634fc0099b8c8a83a017abf89d69f09c44d74829a5158eb5c9d1d0",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-83ef84c25df72a1fa9f7": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 401,
+          "sha256": "e9202fabcc0ef68d6fab7e282a56d5a57342854b058a935275e24b4a5754e60a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2a95e79532ba2923ad85": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 299,
+          "sha256": "8116bdfd0d115e48867a51439b03b387bf99e8b5d0c0c9cca5468dac70999d5a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-df340edfbb854f4cb311": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1172,
+          "sha256": "3e72dcf51e7bc1cfb59d63d6bfd782a8d04e99bedb8f075c6a1767615517e004",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-b3bed9ed7b285a7bb92a": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1166,
+          "sha256": "cb6cb9df020b5fac1d219338d59858cffdcd068cfd564fd8b1fae08cba6367a4",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-73bd6bcef01aaaf9c5c0": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1038,
+          "sha256": "84f10f3824740a4fb092ba16203e1104bec85f0655dfb15ad32550303545e62c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-cded116ad493bfa5fcff": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 465,
+          "sha256": "7e1e3c476f51407e63e146b0463acbdf0c999f5afba73716564ec8f1f2ed59b1",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-b12c67dea3715d79506e": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1295,
+          "sha256": "a70e20f5e627b71b4a08cb5bf82db50f5499d73beb4f12f7d4848f64a49497fb",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-029975bbe8b3bfc0196b": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 371,
+          "sha256": "dae046f93458432f415864ac85088bd58639174f4cc820c6e9d9c62970813655",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-7e2c06393f60691d333b": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1703,
+          "sha256": "9fc1385b6479f6ce98fbb4659ec22c30dd1aa46cd2d19bf6b69105b805d20aa3",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-06d4eda1c2d08cc65dce": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 174,
+          "sha256": "34341bf0af4ea54ff59bf7b351d14c7c7fe4d4361c3854af62e6bd50363e1e3a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-d22e417bc02da3aa4c58": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 2335,
+          "sha256": "392589b450374f9a711faa49bc139f199329a444eb756c2e780c100cdeedfb8c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-07c1ae13cafccfdcf154": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 394,
+          "sha256": "513cee32f53fef9702b001b594a6fc6be8b1f2cfd8dbff8d945109e222cb3879",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-dc02822fb430454a0529": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 640,
+          "sha256": "38e47c61b5cc8d037214d6877b2a9621842f4b7324d646ba8468db2504533d82",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-5397fb3e87529583ea22": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 828,
+          "sha256": "6f03ff390ccbd52105864d6c5d13d6396302d743bb6e1212095825911cc6e419",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-3813638551e0e3a0e9c5": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 566,
+          "sha256": "cf8726814d6c339b7db969b6db775d1d4eb70a16a8b848b5da5b6ea385818a31",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-0f57f9573aed92f83009": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 943,
+          "sha256": "348a184ccee4b09c714169c9dcd9931d7484454272a5769d5109a3c91f157cbc",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-3ab468fbaeb6a5f07405": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1133,
+          "sha256": "f609c33cf050870e9655bb674ec44c3bb2febf547c7bcc9d48571d7a0f0c1f61",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-1bda8668e5a6d1d6a4a7": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 888,
+          "sha256": "09bdd2782826e38a0aebb961c7c10edced819e32915f59c147c03f0ca026300d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-1ce62ea51f8895e5d81d": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1002,
+          "sha256": "fa39e224b46ba15fe27c02f212f42dbdb11fbc87458e008497168aff88acc1a4",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2a0f2bdf9232e13f641b": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 835,
+          "sha256": "3a0e045d8b959879015caffa71ba89b7743d9ee450407c91313c98c3a37af112",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-976048b07d403d3b9b74": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 482,
+          "sha256": "d4e9f73b1ab8be8e0ad71acdb59a9aef4fdba173ef20f8dbe8cde34654b49d41",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-b17e450e122faf9caf50": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 861,
+          "sha256": "43e07e53a3141438bfd2955f98cfe8f5de279ca84e373f2f09e0ae9d8127d4b7",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-3ad4f0b89cd5e79066db": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 6494,
+          "sha256": "ab2b013bea171f196752d50f903bbe078b0b38f7eff43b5f8d566d655307949a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-996f54e9380d45c9e347": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 2075,
+          "sha256": "b4e2f826a4925506344fa4305d8bf91252594b404781321b5d240c36a22b4c65",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2298eb324ec8512b3719": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 226,
+          "sha256": "039518364f77611057b2c46e5486f3b116b3da05da81c7674b2ce2fdf49ed291",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-b60a4ad20d198351b8da": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 388,
+          "sha256": "d97c769fb96a112fec87348b82de9be7ea73126036fca64870e6feb421ecff4f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-df0bb7cbba8163635165": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 406,
+          "sha256": "1b85557c311027d829f4193d5fb9288d63577c36851c1aca16eac2be73a5dce2",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-9b1ef6328a9ee7d1457c": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 331,
+          "sha256": "03936ca8973b38b82b05ed5002de8ca203e3d899947d71ba03c6fb3efaa24c3e",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2ed0347836e67dc0c3e3": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 606,
+          "sha256": "e4c9d8045ef5c225f6460f510bb66bc55352eeafc00165acdab635f88aa95cbe",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-74db41c3da95ba757c0e": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 641,
+          "sha256": "677b476aaf4acb718c2abf6347585b64903e6a4189f6e371a24fdf0111918c27",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-7333e6b410ad777184db": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 528,
+          "sha256": "25bd9d565372d57cc1caf64578def328ad94347bb2544fcb9b904e111ce4c8e5",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-49c5fe9778723bc4af64": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 527,
+          "sha256": "68c6964180266599a1789806a4af5c281d4fbcddf497f382d48b7fdb6286ea6e",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-1781f2b90bf796e2375e": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 3326,
+          "sha256": "00887a1cfe1c277e8c5bbd765c1c0059acc098abe992962a7b15799fb1d3c5c7",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-fbd7f05925b7f60a228b": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 738,
+          "sha256": "ecae00ec072bfd39b926b1d25a59bd4d38dcbb0367a7d723d61a92c2f8bdcc79",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-e14609f5dd3b69fb8318": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 915,
+          "sha256": "b9ad3911d581ed9ceaa1bd23d4a8cf897f27950884c7e0f7756a82cb51b62c9f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-21eb8dccb1f32162e2fb": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 961,
+          "sha256": "3d23415b43739cf32e3176ac0ad11a19d63e15d8dd289d8788678d37f99477a3",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2e6f2f247141cb169eb5": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1488,
+          "sha256": "34b0ae982e9b0e3ce3c1e933e1548d4c9bfe87eb7037c10ffe70fda5e9319c9d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-376a6b11190e60aaf522": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 156,
+          "sha256": "4a3d11a3d193677cc38f96acdb4e53aa63530c263ddc4ed3e675e35fdd1187e6",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-43f3ce0aece761d2cc42": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 996,
+          "sha256": "6b01bf13bcce7643f0620bfc6062d4fbf89e4e0d2c168f429e561bd09d6ae559",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-b815ebec1cabb1734ce3": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 4436,
+          "sha256": "fb0854e1fcd458d3b7251ffa164b93d2782542d357c84ed0dbdd934203e3dfed",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-4de7c2afc4f9454f2ee7": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 908,
+          "sha256": "a76e8710d915ad6f30652719d8581d9805e93f8c7a0f81941dbc260da966042a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-e5a0215c3d7474415ba3": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1091,
+          "sha256": "3eb600818143893e86047fcb7fc969311ffaa51c64312dd7fdd90325092e3def",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "c9aec999-67e5-4ee5-84bb-2e4bf6ac12f2:ec56b539-c0ca-4bd6-a1ab-b568141eae6a": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 292,
+          "sha256": "3492d22a1fbf3b19208423e28891c428a92fadb56f044fea48c44a77e423c11f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2bf64bd098311a866f88": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 4283,
+          "sha256": "616cfbb2a9cc86bce0b8d5e400a316182fdb8d61b5a2d0313c3da7f107f113c5",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-3de10bc1aa76c816165d": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 6763,
+          "sha256": "5b6578edea1ec85d7d4d81d606ab035602f3e879cdbae4d7dbc901a16ae68a9d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-d861a77f7bba6076fedb": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 7671,
+          "sha256": "7fde62f20a0e74cba4ab5fce314d23e01207e9e598ecec5db2f47efb7bc87189",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-9638ae2038981169aa21": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1041,
+          "sha256": "813ca8fd6fe4c11d6c83b53221434a94b733a14b2f4993844e2285646dac8463",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-ca1aec3b43c8a460fff6": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 350,
+          "sha256": "d0c9e1b1c73f256adde3a49c9a198642f8a7b13c384a37ce99e7e3b96e6955ab",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-5715036cbfeb41b6a104": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 3278,
+          "sha256": "662ab9ab6a1180092a20c610c7d09b80dff51416973a9c51905d3522f772cc08",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-6657f7b2ac26ce56dc22": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 5182,
+          "sha256": "343c063aaaf857b75060250efeabf4c0dfb36f63d1dd5d59f2a9e3e96ba48fb8",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-fa0045097fb4c36976e3": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 186,
+          "sha256": "83c8c5d96f47f1b56f8054a3b88a28c4707de60625c0af0de880b3b782b2683a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "c9aec999-67e5-4ee5-84bb-2e4bf6ac12f2:45f26cf6-a61a-4a5c-9c12-9d3d5dc1fe4f": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 862,
+          "sha256": "415f37fb8d1fc586680b3a1076594049ebb63fa2f702ef7e8bcbab7f28dfe428",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "c9aec999-67e5-4ee5-84bb-2e4bf6ac12f2:59831d26-9624-4294-90af-2914466c1ce0": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 962,
+          "sha256": "9fe10974f9fc73f42278a23cf1cd958c796ef94a08bef2b9022afd21c782af65",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-d159ee661b878fed6bb5": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 175,
+          "sha256": "f5ac95f97834a77c57fe9272b03012243598b430b5340cf9139c45fa44c331dd",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "c9aec999-67e5-4ee5-84bb-2e4bf6ac12f2:ea5cd9b6-00c2-4eff-b108-6bed6abeeda3": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 873,
+          "sha256": "a582f579e0c9cb40646418178205793a92d55bc38a42ba870010e6550a37c934",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-536caff556fb9f64c487": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1683,
+          "sha256": "823eddd65c35ce03164e7abf4a3cde463ea9217cb720adf269edf1f4bb497d0c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-4981d949140aef071263": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1088,
+          "sha256": "74b44af1a5951d17c24dee589037a2f6535689b5a54d758ba21bca4a38fbfa1b",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-71a8e348d3a924f95133": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 234,
+          "sha256": "1679b31340df66688c0476823e87f38814312a196e8a439af5343863e06244c7",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-69be1478ffa6850eff1e": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 440,
+          "sha256": "9daf236154ba30c705795950245b25006cf734042c1bae1d4856fedf5daf40d8",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "6a7f75f9-abfb-446e-a811-7a3c38228b30:419d6889-b089-4328-8c28-d0702e2a987c": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 531,
+          "sha256": "96f570a718785adae4fb3e52652ceb8659b681267be6ec726a06867506fd9440",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-0967bd6a5ba302e7a3dc": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 634,
+          "sha256": "2101fe0b19b1ae5495bd0baa63e8d49de8f2e70dea4143ce88484ae69e89a327",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "6a7f75f9-abfb-446e-a811-7a3c38228b30:3ef8a5a5-0afd-4b47-b75e-965eb7dbca5f": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 391,
+          "sha256": "34add2df76c719d074b8b22ae5e49da52c299db1d052d12bd4bf56f4a7175b3d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-a266fbbb5a5d58966dcc": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1278,
+          "sha256": "3cf464e5981b2162ae59db4b2ce7db0257dc600195a3c0c8ef090183c30e34d7",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2456c3df658c0b3867cc": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 302,
+          "sha256": "35d9bae595f46801a0701dc414513b4cf431a2e7f8475ec21843e8241a7ee24f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-7503dcc9998050710b85": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 729,
+          "sha256": "ca4cc007792542996370b4c243b659184ca2d3f39dd235b1011f4f096a1ec31f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-d67729f88894d45a374a": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1623,
+          "sha256": "6c66765474038a00b7f0b36aca9b9b23cd62df9ef7305eecd9e3b06aabf628e4",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-be39a4bc5b97a83f3f31": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 383,
+          "sha256": "d704b760d5c27389ea05692adde74e723b03de9ece3573d55f8416126e606e74",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-882210c5e6850bbab7be": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 499,
+          "sha256": "b0a372c815ed8b32578e250a7e56cab35db8575e362f1490a4d751ccf8fa9d3a",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "6a7f75f9-abfb-446e-a811-7a3c38228b30:1bf92955-01f8-44da-989f-3c3d4bb222a6": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 902,
+          "sha256": "71177e47a2dce5fbd045e0d9d2b414ce7d83a8dac7973cebfbf8fb9bc4b4a7cb",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "6a7f75f9-abfb-446e-a811-7a3c38228b30:d9186a5f-413b-4841-a925-c71d771edc12": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1460,
+          "sha256": "5e700af5e9fb95eed877004c353c276925df57390aaa382bd7f1f7a93f14f121",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-8406e8d0b9a46a478039": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1752,
+          "sha256": "d9a33847f1205199f9baf01f806b1d603e384b171726f9980741789d34bdcd71",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-6faca487a3c109f5f369": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1866,
+          "sha256": "2abb5f756c6738a0649b0030f24fe12509e28e09a35a8dcae7302f7bdaa4655f",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-64c4ab7b07c263b72f1a": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1102,
+          "sha256": "7aa6262f30f312550f2930b08f7ab9ec88c9504067105d439002cdba2c01de47",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "6a7f75f9-abfb-446e-a811-7a3c38228b30:54bcdd90-0ae9-4de5-a30d-8e70d5a484d2": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 325,
+          "sha256": "bb95bd497c906d1a9fa3c13c243ec0b6a9cd53819324448f53b5462fc9f43849",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "6a7f75f9-abfb-446e-a811-7a3c38228b30:323966b3-3970-462c-a7df-bd283e5c64eb": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1616,
+          "sha256": "a3b5418db9f88b7cc1c391bd3ecff191d594e18574d0f19955df73a6336e3593",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-ffa91ea721674db77997": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 4956,
+          "sha256": "edff601373a68cb36451517c445dd8dc8ae5376a1062f66b3ddf099bef7a7675",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-c15a776d0babd4e48b08": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 2122,
+          "sha256": "e04d991be7076eba5298462a33fd84196e86bf20925feaec256acd0370853c4b",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "6a7f75f9-abfb-446e-a811-7a3c38228b30:22237238-0b17-4e58-a9ca-99dde1e5022d": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 1147,
+          "sha256": "66b8a31dd3b1ec3794f3727664126dfd0684ce026898c001f22201f1c100603c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "b6e812cc-e6ef-4467-baa6-48bd486ea2fb:0a772b86-2a61-49ac-92c2-1fd5831b2312": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 328,
+          "sha256": "fec404345985e10af7dfe1f4cde1d21e7bba52aa864af27ab39601f0b33952b0",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "b6e812cc-e6ef-4467-baa6-48bd486ea2fb:f021b102-bd91-48ee-a1a3-5ecf2da4116d": {
+          "dsml_calls": 2,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 438,
+          "sha256": "7c9de297d621eb813aeaa251949999fcd6a40678a74371d59ca40c851158ca9d",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-b567aa56f64eff017fd7": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 461,
+          "sha256": "f139e576d1ad0ba408c560ff731ca7afea77e6e5fe3deb59a21ac0093d8c120e",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-2698f56767793f690509": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 335,
+          "sha256": "80481f78044bc57884915cb67378dd1a95fd37f155bfaa211578f85fe6d7e826",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-81c6c6614f3c50252174": {
+          "dsml_calls": 1,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 2960,
+          "sha256": "7458b7b3775d9da980a192df2a2705c328b7e9b9dabfbd967a348cc10711057c",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-074f58be9808f2edf943": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 6870,
+          "sha256": "f6445c9687f74904e52b9b219b2c21fd0e8e6c03d01ac95861c6d4608b69c25e",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "b6e812cc-e6ef-4467-baa6-48bd486ea2fb:367dffff-ac80-4054-a8b5-463d902ddd09": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 4349,
+          "sha256": "06624ffcddd7e136e1d41313f1c781cbfa5936ca94743914495c6b55e7f5cc09",
+          "finish_reasons": [
+            "stop"
+          ]
+        },
+        "request-e49f2a81dd7e78249315": {
+          "dsml_calls": 0,
+          "dsml_unbalanced_flags": 0,
+          "dsml_unknown_tools": 0,
+          "dsml_duplicate_parameters": 0,
+          "dsml_nonstring_json_fallbacks": 0,
+          "status": "ok",
+          "empty": false,
+          "truncated": false,
+          "tool_calls": 0,
+          "malformed_tool_json": 0,
+          "repeated_suffix_flag": false,
+          "completion_tokens": 6999,
+          "sha256": "98feac073d40def050047971fb27e1e7b22c055d308a6954a1393228bb47eea4",
+          "finish_reasons": [
+            "stop"
+          ]
+        }
+      }
+    }
+  }
+}

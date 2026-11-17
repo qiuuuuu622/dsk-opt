@@ -1,0 +1,105 @@
+{
+  "next_n": 1,
+  "needs_padding": false,
+  "scale_none": true,
+  "dcp": 1,
+  "pcp": false,
+  "global_seq_lens_none": true,
+  "indices_none": true,
+  "candidate_block_size": 8,
+  "capturing": false,
+  "tensors": {
+    "q": {
+      "shape": [
+        64,
+        1,
+        32,
+        128
+      ],
+      "stride": [
+        4096,
+        4096,
+        128,
+        1
+      ],
+      "dtype": "torch.float8_e4m3fn",
+      "contiguous": true
+    },
+    "cache": {
+      "shape": [
+        64,
+        64,
+        1,
+        132
+      ],
+      "stride": [
+        116928,
+        132,
+        132,
+        1
+      ],
+      "dtype": "torch.uint8",
+      "contiguous": false
+    },
+    "weights": {
+      "shape": [
+        64,
+        32
+      ],
+      "stride": [
+        32,
+        1
+      ],
+      "dtype": "torch.float32",
+      "contiguous": true
+    },
+    "lengths": {
+      "shape": [
+        64,
+        1
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "dtype": "torch.int32",
+      "contiguous": true
+    },
+    "table": {
+      "shape": [
+        64,
+        16384
+      ],
+      "stride": [
+        16384,
+        1
+      ],
+      "dtype": "torch.int32",
+      "contiguous": true
+    },
+    "candidates": {
+      "shape": [
+        64,
+        2048
+      ],
+      "stride": [
+        2048,
+        1
+      ],
+      "dtype": "torch.int32",
+      "contiguous": true
+    },
+    "out": {
+      "shape": [
+        64,
+        512
+      ],
+      "stride": [
+        512,
+        1
+      ],
+      "dtype": "torch.int32",
+      "contiguous": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "src/dsk_humming_worker.py": "47b5715ad1b553a02836232156f13087c05caf57fa181e0cd777f4d8b5082c5c",
+    "src/dsk_shape_worker.py": "4f05ff68dadcca5160b66f89f32a27c9c20ccd0d01245b63f477fa0938ebc883",
+    "src/dsk_indexer_adapter.py": "dbcc489acf59731aecc2d8cafaa2fb1cd8a780e65bf0f0d961b193bd4a9e965d",
+    "src/dsk_indexer_worker.py": "9483b8d4cb40ae3ed28aa090425c5570edf9b68388ad429cab7c8ad2b6607c83",
+    "src/dsk_sampling_audit_launch.py": "514e6f1cc48ffe295f0011fcdc0a3223905eb62f8f14d90f6877d9620cf7137e",
+    "src/dsk_headrow_adapter.py": "396363c7f0b28170464b2a04d9e357852ee1eb3729c00411c5d299307b5206c7",
+    "src/dsk_combined_worker.py": "7e582f3895bde69020f31e9ef75807af658b6d643e968a059ff2a351b77f92c0",
+    "src/dsk_gc_adapter.py": "f8980ec0d0aef542d8ad41e396fd2dd5dff5764bce50c17d8820f2a7aacdad26",
+    "src/dsk_gc_worker.py": "29817976ee4bab4761171ea0704d26d1839cad3928b14d46972bcd2768c45e10",
+    "src/dsk_fastokens_entry.py": "64fb1a840b5d30fd8419c3735887d49265dc684f61f96e9dba01b01c3c73c597",
+    "src/dsk_humming_full_finalize.py": "7ce286ce2321b0d14b41450dc18c22606fd6ccb9f57334b52b47fafa7a4ae43b",
+    "src/dsk_humming_full_worker.py": "98d7c7781bd88cde3c9514f53504794791f1cd2947f1bf92b67d24e3dd6ecac3",
+    "src/vllm_dsv41_moe/adapter.py": "fdae1746953e86f88738ccd5a895ad17b698e754b46d008b1fa1c9bc287dfd5c",
+    "src/vllm_dsv41_moe/__init__.py": "d92b8beebdcd9d8e100e6a9a2c03af67b317e496c085dbc8b03feb74241f3e41",
+    "src/vllm_dsv41_moe/ops.py": "2cfcb65e5a804fbe297ee9def885bdd0041c54f986912d4cf38852608de6c052",
+    "build/headrow/libsegment_exchange.so": "011aad586dd8a9ce43e5c61f15cb49221abc87ca62df18cedf41c329006e83d0"
+  },
+  "runtime_requirements": "See per-group launch scripts and frozen environment evidence; E1 CUDA extensions must not be copied into E0",
+  "native_restore": "native-off/01_worker.sh and02_frontend.sh are prepared only; actual restart and probe pending"
+}

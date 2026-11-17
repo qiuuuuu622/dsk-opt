@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "group": "P-ALL-w4a8-spec6-r2",
+  "time_unix": 1794813779.1603875,
+  "pids": {
+    "frontend": 398976,
+    "worker": 398977,
+    "replay_launcher": 398980
+  },
+  "error": "AssertionError: ('Replay failed', 1)"
+}

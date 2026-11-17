@@ -1,0 +1,25 @@
+{
+  "headrow_transport": {
+    "status": "completed",
+    "rank_cases": 176,
+    "iterations_per_case": 200,
+    "all_exact": true
+  },
+  "headrow_attention": {
+    "status": "completed",
+    "shapes": 12,
+    "rank_cases": 96,
+    "max_nrmse": 0.002054123906418681,
+    "formal_performance": false
+  },
+  "indexer_distributed": {
+    "status": "passed",
+    "ranks": 8
+  },
+  "indexer_score_checks": {
+    "count": 256,
+    "max_score_nrmse": 7.141363767004805e-08,
+    "min_topk_set_recall": 1.0,
+    "boundary_differences": 0
+  }
+}

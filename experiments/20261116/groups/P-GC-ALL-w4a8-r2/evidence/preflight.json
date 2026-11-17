@@ -1,0 +1,21 @@
+{
+  "purpose": "kernel-branch readiness; excluded from150 timing; synthetic non-dataset prompt",
+  "usage": {
+    "prompt_tokens": 2119,
+    "completion_tokens": 32,
+    "total_tokens": 2151,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    }
+  },
+  "finish_reasons": [
+    "length"
+  ]
+}

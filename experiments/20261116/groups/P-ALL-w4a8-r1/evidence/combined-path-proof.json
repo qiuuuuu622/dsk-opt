@@ -1,0 +1,94 @@
+{
+  "scope": "post-timing 3-request diagnostic only; these counts are not whole150 hit rates",
+  "all_8_ranks_all_paths_observed": false,
+  "ranks": [
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-ALL-w4a8-r1/traces/P-ALL-w4a8-r1-kernel-proof_dp0_pp0_tp3_dcp0_ep3_rank3.1794813091549159966.pt.trace.json.gz",
+      "counts": {
+        "humming_w4a8": 1600,
+        "tiled_finalize": 860,
+        "compact_indexer_scores": 0,
+        "compact_candidate_publish": 0,
+        "head_row_exchange": 1600
+      },
+      "all_paths_observed": false
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-ALL-w4a8-r1/traces/P-ALL-w4a8-r1-kernel-proof_dp0_pp0_tp7_dcp0_ep7_rank7.1794813091558921180.pt.trace.json.gz",
+      "counts": {
+        "humming_w4a8": 1600,
+        "tiled_finalize": 860,
+        "compact_indexer_scores": 0,
+        "compact_candidate_publish": 0,
+        "head_row_exchange": 1600
+      },
+      "all_paths_observed": false
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-ALL-w4a8-r1/traces/P-ALL-w4a8-r1-kernel-proof_dp0_pp0_tp0_dcp0_ep0_rank0.1794813091558287494.pt.trace.json.gz",
+      "counts": {
+        "humming_w4a8": 1600,
+        "tiled_finalize": 860,
+        "compact_indexer_scores": 0,
+        "compact_candidate_publish": 0,
+        "head_row_exchange": 1600
+      },
+      "all_paths_observed": false
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-ALL-w4a8-r1/traces/P-ALL-w4a8-r1-kernel-proof_dp0_pp0_tp5_dcp0_ep5_rank5.1794813091566411758.pt.trace.json.gz",
+      "counts": {
+        "humming_w4a8": 1600,
+        "tiled_finalize": 860,
+        "compact_indexer_scores": 0,
+        "compact_candidate_publish": 0,
+        "head_row_exchange": 1600
+      },
+      "all_paths_observed": false
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-ALL-w4a8-r1/traces/P-ALL-w4a8-r1-kernel-proof_dp0_pp0_tp6_dcp0_ep6_rank6.1794813091582939466.pt.trace.json.gz",
+      "counts": {
+        "humming_w4a8": 1600,
+        "tiled_finalize": 860,
+        "compact_indexer_scores": 0,
+        "compact_candidate_publish": 0,
+        "head_row_exchange": 1600
+      },
+      "all_paths_observed": false
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-ALL-w4a8-r1/traces/P-ALL-w4a8-r1-kernel-proof_dp0_pp0_tp2_dcp0_ep2_rank2.1794813091589646977.pt.trace.json.gz",
+      "counts": {
+        "humming_w4a8": 1600,
+        "tiled_finalize": 860,
+        "compact_indexer_scores": 0,
+        "compact_candidate_publish": 0,
+        "head_row_exchange": 1600
+      },
+      "all_paths_observed": false
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-ALL-w4a8-r1/traces/P-ALL-w4a8-r1-kernel-proof_dp0_pp0_tp1_dcp0_ep1_rank1.1794813091629015883.pt.trace.json.gz",
+      "counts": {
+        "humming_w4a8": 1600,
+        "tiled_finalize": 860,
+        "compact_indexer_scores": 0,
+        "compact_candidate_publish": 0,
+        "head_row_exchange": 1600
+      },
+      "all_paths_observed": false
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-ALL-w4a8-r1/traces/P-ALL-w4a8-r1-kernel-proof_dp0_pp0_tp4_dcp0_ep4_rank4.1794813091602798454.pt.trace.json.gz",
+      "counts": {
+        "humming_w4a8": 1600,
+        "tiled_finalize": 860,
+        "compact_indexer_scores": 0,
+        "compact_candidate_publish": 0,
+        "head_row_exchange": 1600
+      },
+      "all_paths_observed": false
+    }
+  ]
+}

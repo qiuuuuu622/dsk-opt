@@ -1,0 +1,187 @@
+{
+  "rank": 6,
+  "passed": true,
+  "cases": [
+    {
+      "rows": 1,
+      "async_shared": false,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 1,
+      "async_shared": false,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 1,
+      "async_shared": true,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 1,
+      "async_shared": true,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 7,
+      "async_shared": false,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 7,
+      "async_shared": false,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 7,
+      "async_shared": true,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 7,
+      "async_shared": true,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 64,
+      "async_shared": false,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 64,
+      "async_shared": false,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 64,
+      "async_shared": true,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 64,
+      "async_shared": true,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 128,
+      "async_shared": false,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 128,
+      "async_shared": false,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 128,
+      "async_shared": true,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 128,
+      "async_shared": true,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": false
+    },
+    {
+      "rows": 129,
+      "async_shared": false,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": true
+    },
+    {
+      "rows": 129,
+      "async_shared": false,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": true
+    },
+    {
+      "rows": 129,
+      "async_shared": true,
+      "scale": 1.0,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": true
+    },
+    {
+      "rows": 129,
+      "async_shared": true,
+      "scale": 1.5,
+      "eager_equal": true,
+      "graph_steps": 10,
+      "all_reduce_equal": true,
+      "native_fallback": true
+    }
+  ],
+  "scope": "Exercise actual patched MoERunner boundaries using synthetic expert outputs.\nDoes not claim full model or GEMM correctness; compares native unpermute,\nBF16 multiply/add and 8-rank reduction with fused path in eager/Graph.\n"
+}

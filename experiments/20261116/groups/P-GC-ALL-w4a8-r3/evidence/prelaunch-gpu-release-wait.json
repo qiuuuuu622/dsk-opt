@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "group": "P-GC-ALL-w4a8-r3",
+  "time_unix": 1794821835.6520884,
+  "pids": {},
+  "error": "AssertionError: ('GPU processes still present', '438213\\n')"
+}

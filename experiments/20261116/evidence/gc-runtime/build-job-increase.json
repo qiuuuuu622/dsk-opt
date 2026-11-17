@@ -1,0 +1,20 @@
+{
+  "old_parent": 359035,
+  "ninja": 359449,
+  "drained_children": [
+    416210,
+    416290,
+    416356,
+    416384,
+    416549,
+    416580,
+    416670,
+    416698
+  ],
+  "reason": "32CPU quota,8compile jobs; increase to24 with idle service and no timed run",
+  "started_unix": 1794816758.6731281,
+  "new_pid": 417146,
+  "started24_unix": 1794816974.6963425,
+  "old_exit": "1",
+  "old_exit_reason": "intentional controller interruption after child drain"
+}

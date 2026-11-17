@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "requests_sent": 0,
+  "cause": "diagnostic launcher missing main guard; child opened same exclusive log",
+  "fix": "main guard in r2b"
+}

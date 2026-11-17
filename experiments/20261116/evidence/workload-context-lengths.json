@@ -1,0 +1,9 @@
+{
+  "requests": 150,
+  "median_prompt_tokens": 44401.0,
+  "min": 18136,
+  "max": 203534,
+  "at_least_16k": 150,
+  "at_least_64k": 25,
+  "note": "Prompt length only, not exact index key lengths for every layer/token; no extrapolated speedup"
+}

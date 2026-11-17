@@ -1,0 +1,12 @@
+{
+  "state": "prepared_not_started",
+  "kind": "formal_performance",
+  "A8": true,
+  "finalize": false,
+  "first_requests": 150,
+  "qps": 0.45,
+  "sampling": "original registry: temperature0.8/top_p0.95/max_tokens16384/no seed override",
+  "cache": "fresh worker; no business warmup",
+  "profiler": "configured identically for A/B but disabled throughout timed batch; explicit start only afterward",
+  "required_quality_gate": "QH1-a8-r1 structural_proxy_pass"
+}

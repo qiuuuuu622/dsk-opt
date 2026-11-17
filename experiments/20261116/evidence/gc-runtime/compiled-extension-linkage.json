@@ -1,0 +1,18 @@
+{
+  "scope": "CPU-side dynamic linkage and operator registration only; no GPU kernel/model execution",
+  "checks": [
+    {
+      "path": "/root/gc_moe_isolated_20261116/src/vllm-5df63a7/vllm/_C_stable_libtorch.abi3.so",
+      "exit_code": 0,
+      "stdout": "2.11.0+cu130\n",
+      "stderr": ""
+    },
+    {
+      "path": "/root/gc_moe_isolated_20261116/src/vllm-5df63a7/vllm/_moe_C_stable_libtorch.abi3.so",
+      "exit_code": 0,
+      "stdout": "2.11.0+cu130\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true
+}

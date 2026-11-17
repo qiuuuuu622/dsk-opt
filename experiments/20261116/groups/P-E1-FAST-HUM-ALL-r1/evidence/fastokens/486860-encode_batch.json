@@ -1,0 +1,7 @@
+{
+  "pid": 486860,
+  "kind": "encode_batch",
+  "version": "0.3.6",
+  "time": 1794825461.257469,
+  "backend_class": "<class 'fastokens._ConfiguredTokenizerShim'>"
+}

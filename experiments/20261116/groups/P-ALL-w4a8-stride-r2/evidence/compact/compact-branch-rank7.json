@@ -1,0 +1,6 @@
+{
+  "rows": 64,
+  "next_n": 1,
+  "capturing": false,
+  "scope": "Python branch selection during warmup/capture; runtime kernel proof separate"
+}

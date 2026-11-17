@@ -1,0 +1,13 @@
+{
+  "state": "prepared_not_started",
+  "A8": true,
+  "tiled_finalize": true,
+  "compact_indexer": true,
+  "headrow": true,
+  "shared_scale_fusion": false,
+  "requests": 150,
+  "qps": 0.45,
+  "quality": "same timed run output structural checks; headrow adapter eight-rank changed-input graph check required before start",
+  "baseline": "A1-off-r1",
+  "incremental_reference": "P-H3-a8-finalize-r1"
+}

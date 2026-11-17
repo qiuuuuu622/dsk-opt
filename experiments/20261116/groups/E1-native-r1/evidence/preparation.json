@@ -1,0 +1,16 @@
+{
+  "status": "prepared_not_started",
+  "purpose": "GC same-environment native baseline and full service compatibility gate",
+  "optimizations": "all off",
+  "source_commit": "5df63a7203cdb9328d824a27b682e77c7b9928be",
+  "runtime_plan": "/root/gc_moe_isolated_20261116/evidence/runtime-frozen-plan.json",
+  "main_worker_retained": 410048,
+  "model": "/model",
+  "dependencies_before_launch": [
+    "E1 source build exit0",
+    "runtime import validation",
+    "GPU ownership check and owned E0 shutdown",
+    "all-eight-rank dtype audit",
+    "minimal request succeeds before timed replay"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/qiuuuuu622/Experiment-Results",
+  "commit": "548fe680b53febbfbea9d908ff3b49a6b06225bc",
+  "reviewed": [
+    "README.md",
+    "2026-11-07/p8-grouped-final-v1/REPORT.md",
+    "2026-11-07/p8-final-dispatch/REPORT.md",
+    "2026-11-07/p5c-perquery/REPORT.md"
+  ],
+  "takeaways": [
+    "Module evidence is not serving performance",
+    "Shared consumer requires matching candidate-prefix and causal contracts; current hook retains per-query candidates",
+    "P5c is separate prefill scope; current hook targets decode/verify",
+    "Actual service cache has padded page stride116928 and inner strides132,132,1; scorer already takes actual page stride",
+    "Native V2 observed next_n1; Bx6 support added and verified but was not observed root cause"
+  ],
+  "root_cause": "Adapter all-contiguous guard rejected legal page-padded cache",
+  "fix": "Validate inner layout/page alignment while retaining actual page stride; no copying giant cache"
+}

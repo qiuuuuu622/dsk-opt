@@ -1,0 +1,6 @@
+{
+  "attempt1": "Pairwise native-vs-headrow threshold exceeded for one element out of 1572864; absolute delta0.0022583, tolerance .002 + .02*abs(reference).",
+  "attempt2": "Independent FP32 checks added; diagnostic incorrectly executed a collective headrow call on only ranks with local mismatch, desynchronizing subsequent steps. Invalid diagnostic run; not service failure evidence.",
+  "attempt3": "All-reduce mismatch flag makes all ranks enter optional FP32/eager diagnostics together. Original FP32 tolerance retained.",
+  "service_scope": "Do not launch combined service until all 8 adapter result files pass."
+}

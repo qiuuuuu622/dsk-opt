@@ -1,0 +1,79 @@
+{
+  "scope": "post-timing3request trace, not whole150 hit rate",
+  "review": "GC native role kernels aggregated; Humming W4A8 type signature and _grouped/_indexed from vllm_dsv41_moe.ops verified",
+  "all_four_on_eight_ranks": true,
+  "ranks": [
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-FAST-HUM-ALL-r1/traces/P-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp3_dcp0_ep3_rank3.1794825021891410378.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-FAST-HUM-ALL-r1/traces/P-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp7_dcp0_ep7_rank7.1794825021891826840.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-FAST-HUM-ALL-r1/traces/P-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp0_dcp0_ep0_rank0.1794825021891696274.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-FAST-HUM-ALL-r1/traces/P-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp2_dcp0_ep2_rank2.1794825021892795507.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-FAST-HUM-ALL-r1/traces/P-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp4_dcp0_ep4_rank4.1794825021893488348.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-FAST-HUM-ALL-r1/traces/P-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp5_dcp0_ep5_rank5.1794825021891047166.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-FAST-HUM-ALL-r1/traces/P-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp6_dcp0_ep6_rank6.1794825021907662815.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-FAST-HUM-ALL-r1/traces/P-FAST-HUM-ALL-r1-kernel-proof_dp0_pp0_tp1_dcp0_ep1_rank1.1794825021913114943.pt.trace.json.gz",
+      "counts": {
+        "compact": 80,
+        "headrow": 1600,
+        "moe_w4a8": 1600,
+        "finalize": 860
+      }
+    }
+  ]
+}

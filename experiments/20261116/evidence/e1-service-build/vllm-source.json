@@ -1,0 +1,6 @@
+{
+  "commit": "5df63a7203cdb9328d824a27b682e77c7b9928be",
+  "archive_sha256": "9524474ffa40d63101323cf19e48071155c4635f50f2de1f50f6507a5fb2397f",
+  "source": "/root/gc_moe_isolated_20261116/src/vllm-5df63a7",
+  "state": "unmodified source, compile compatibility unverified"
+}

@@ -1,0 +1,23 @@
+{
+  "versions": {
+    "vllm": "0.32.0",
+    "torch": "2.13.0+cu130",
+    "triton": "3.7.1",
+    "humming-kernels": "0.1.17"
+  },
+  "worker_env": {
+    "DSK_HUMMING_A8": "1",
+    "DSK_HUMMING_FINALIZE": "1",
+    "DSK_COMPACT_INDEXER": "1",
+    "DSK_HEADROW": "1",
+    "PYTHONPATH": "/root/dsk_opt_goal_20261116/src:/root/dsk_opt_goal_20261116/src/indexer:/root/dsk_opt_goal_20261116/src/headrow",
+    "DYN_NAMESPACE": "dsk-p-all-w4a8-r1",
+    "DYN_SYSTEM_PORT": "8081"
+  },
+  "kv_cache_tokens": 18881293,
+  "baseline_kv_cache_tokens": 19605754,
+  "headrow_workspace_bytes_per_rank": 796051456,
+  "indexer_workspace_bytes_per_rank": 28317704,
+  "timing": "torch profiler configured but inactive during150; separate post-timing trace",
+  "gc_compile": "suspended duringtiming"
+}

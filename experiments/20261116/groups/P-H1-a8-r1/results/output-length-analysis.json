@@ -1,0 +1,111 @@
+{
+  "scope": "post-hoc descriptive comparison; length-matched subset not randomized nor whole workload",
+  "request_count": 150,
+  "candidate_longer": 77,
+  "median_token_ratio": 1.0081818181818183,
+  "within_10_percent_length": 34,
+  "within_10_percent_median_e2e_ratio": 0.9081206321173473,
+  "within_10_percent_median_tpot_ratio": 0.8644683552288323,
+  "largest_candidate_e2e": [
+    {
+      "event_id": "request-882210c5e6850bbab7be",
+      "baseline_tokens": 689,
+      "candidate_tokens": 11573,
+      "token_ratio": 16.796806966618288,
+      "baseline_e2e_ms": 12082.347542978823,
+      "candidate_e2e_ms": 72736.19622003753,
+      "baseline_tpot": 8.042564616284094,
+      "candidate_tpot": 5.732334287594458
+    },
+    {
+      "event_id": "request-e49f2a81dd7e78249315",
+      "baseline_tokens": 11210,
+      "candidate_tokens": 9736,
+      "token_ratio": 0.8685102586975915,
+      "baseline_e2e_ms": 57141.23988698702,
+      "candidate_e2e_ms": 54048.37550298544,
+      "baseline_tpot": 4.697447051743025,
+      "candidate_tpot": 5.095824635027739
+    },
+    {
+      "event_id": "request-d861a77f7bba6076fedb",
+      "baseline_tokens": 6740,
+      "candidate_tokens": 5683,
+      "token_ratio": 0.8431750741839763,
+      "baseline_e2e_ms": 69855.23992299568,
+      "candidate_e2e_ms": 49458.4147639689,
+      "baseline_tpot": 10.288873874015527,
+      "candidate_tpot": 8.606521303229744
+    },
+    {
+      "event_id": "request-1781f2b90bf796e2375e",
+      "baseline_tokens": 3278,
+      "candidate_tokens": 4593,
+      "token_ratio": 1.4011592434411226,
+      "baseline_e2e_ms": 42098.38420298183,
+      "candidate_e2e_ms": 43172.771849960554,
+      "baseline_tpot": 12.691698575522103,
+      "candidate_tpot": 9.278509820331694
+    },
+    {
+      "event_id": "request-bc48b7bce976d1b312a1",
+      "baseline_tokens": 3318,
+      "candidate_tokens": 5545,
+      "token_ratio": 1.671187462326703,
+      "baseline_e2e_ms": 16178.99391904939,
+      "candidate_e2e_ms": 41444.92096302565,
+      "baseline_tpot": 4.707664786866072,
+      "candidate_tpot": 7.376032996394663
+    },
+    {
+      "event_id": "request-b815ebec1cabb1734ce3",
+      "baseline_tokens": 7151,
+      "candidate_tokens": 3976,
+      "token_ratio": 0.5560061529855964,
+      "baseline_e2e_ms": 67367.41478397744,
+      "candidate_e2e_ms": 40144.96600703569,
+      "baseline_tpot": 9.305284140416635,
+      "candidate_tpot": 9.884320450565959
+    },
+    {
+      "event_id": "6a7f75f9-abfb-446e-a811-7a3c38228b30:54bcdd90-0ae9-4de5-a30d-8e70d5a484d2",
+      "baseline_tokens": 347,
+      "candidate_tokens": 6501,
+      "token_ratio": 18.734870317002883,
+      "baseline_e2e_ms": 1802.832782967016,
+      "candidate_e2e_ms": 39380.277336982545,
+      "baseline_tpot": 3.728085112720297,
+      "candidate_tpot": 5.9917543809234095
+    },
+    {
+      "event_id": "b6e812cc-e6ef-4467-baa6-48bd486ea2fb:367dffff-ac80-4054-a8b5-463d902ddd09",
+      "baseline_tokens": 5444,
+      "candidate_tokens": 6347,
+      "token_ratio": 1.1658706833210875,
+      "baseline_e2e_ms": 28111.858017975464,
+      "candidate_e2e_ms": 37811.10751500819,
+      "baseline_tpot": 5.034675081014112,
+      "candidate_tpot": 5.836444796244471
+    },
+    {
+      "event_id": "6a7f75f9-abfb-446e-a811-7a3c38228b30:22237238-0b17-4e58-a9ca-99dde1e5022d",
+      "baseline_tokens": 3806,
+      "candidate_tokens": 5085,
+      "token_ratio": 1.336048344718865,
+      "baseline_e2e_ms": 25624.534897040576,
+      "candidate_e2e_ms": 32463.131029042415,
+      "baseline_tpot": 6.598138663340752,
+      "candidate_tpot": 6.268276610746203
+    },
+    {
+      "event_id": "request-2bf64bd098311a866f88",
+      "baseline_tokens": 3670,
+      "candidate_tokens": 4601,
+      "token_ratio": 1.2536784741144413,
+      "baseline_e2e_ms": 36308.24310099706,
+      "candidate_e2e_ms": 31935.628651990555,
+      "baseline_tpot": 9.017687748968992,
+      "candidate_tpot": 6.589498393915837
+    }
+  ]
+}

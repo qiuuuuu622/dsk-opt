@@ -1,0 +1,51 @@
+{
+  "status": "completed_service_retained",
+  "group": "P-H1-a8-r1",
+  "time_unix": 1794811367.4480402,
+  "pids": {
+    "frontend": 377794,
+    "worker": 377795,
+    "replay_launcher": 377796
+  },
+  "summary": {
+    "requested": 150,
+    "finished": 150,
+    "success": 150,
+    "failed": 0,
+    "elapsed_sec": 374.0491063070367,
+    "successful_qps": 0.4010168650874228,
+    "reported_output_tokens_per_sec": 535.7264504075898,
+    "requests_with_token_usage": 150,
+    "ttft_ms": {
+      "n": 150,
+      "mean": 2737.8907623044993,
+      "p50": 915.2736520336475,
+      "p90": 8525.976614817044,
+      "p95": 10542.944256245393,
+      "p99": 12677.606137834946
+    },
+    "tpot_ms_per_token": {
+      "n": 150,
+      "mean": 6.117632049498662,
+      "p50": 5.837086895931129,
+      "p90": 8.921296324179966,
+      "p95": 10.390865904220922,
+      "p99": 14.034249597373725
+    },
+    "e2e_ms": {
+      "n": 150,
+      "mean": 11025.618831362031,
+      "p50": 6531.53930301778,
+      "p90": 23316.104743618038,
+      "p95": 35404.51809632365,
+      "p99": 51799.29474086729
+    },
+    "definitions": {
+      "ttft": "HTTP request start to first nonempty content, reasoning, or tool-call delta; role-only chunks excluded",
+      "e2e": "HTTP request start to stream completion",
+      "tpot": "(E2E - TTFT)/(server completion_tokens - 1); absent if usage missing or completion_tokens <= 1",
+      "percentiles": "linear interpolation across successful requests; missing samples excluded and n reported",
+      "streaming": "A streamed chunk can contain multiple tokens, especially with speculative decoding; TPOT is request-average, not per-token ITL"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "baseline": "P-E1-FAST-HUM-ALL-r1",
+  "change": "full grouped unpermute + BF16 routed scale + shared add fusion at <=128 rows",
+  "unchanged": "E1 runtime, fastokens, all other three optimizations, sampling, data, rate",
+  "safety": "no DBO/transforms/SP/DP; shared stream waited at finalizer, shared getter consumed once, allreduce position unchanged; larger batches retain native scale/add and upstream/tiled finalizer"
+}

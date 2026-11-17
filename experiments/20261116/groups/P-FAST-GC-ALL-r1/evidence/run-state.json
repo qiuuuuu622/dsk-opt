@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "group": "P-FAST-GC-ALL-r1",
+  "time_unix": 1794823668.0369134,
+  "pids": {
+    "frontend": 472763,
+    "worker": 472764,
+    "replay_launcher": 472765
+  },
+  "error": "RuntimeError: worker exited: 1"
+}

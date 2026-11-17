@@ -1,0 +1,15 @@
+{
+  "status": "structural_proxy_pass",
+  "dsml_calls": 163,
+  "flags": {
+    "empty": 0,
+    "truncated": 0,
+    "malformed_tool_json": 0,
+    "repeated_suffix_flag": 0,
+    "dsml_unbalanced_flags": 0,
+    "dsml_unknown_tools": 0,
+    "dsml_duplicate_parameters": 0,
+    "dsml_nonstring_json_fallbacks": 0
+  },
+  "limits": "No business labels; stochastic sampling; not business accuracy proof"
+}

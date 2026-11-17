@@ -1,0 +1,119 @@
+{
+  "scope": "Post-timing3request/20step short diagnostic; not whole150 hit rate. Cross-run kernel counts plus runtime branch audit; native draft unmodified.",
+  "all_four_paths": true,
+  "shared_add_elimination_verified_all8": true,
+  "ranks": [
+    {
+      "rank": 0,
+      "counts": {
+        "humming_W4A8": 1600,
+        "grouped_finalize": 860,
+        "compact": 80,
+        "headrow": 1600
+      },
+      "BF16_add_before": 960,
+      "BF16_add_after": 160,
+      "removed_shared_adds": 800,
+      "target_layers_observed": 40,
+      "actual_scale": 1.0
+    },
+    {
+      "rank": 1,
+      "counts": {
+        "humming_W4A8": 1600,
+        "grouped_finalize": 860,
+        "compact": 80,
+        "headrow": 1600
+      },
+      "BF16_add_before": 960,
+      "BF16_add_after": 160,
+      "removed_shared_adds": 800,
+      "target_layers_observed": 40,
+      "actual_scale": 1.0
+    },
+    {
+      "rank": 2,
+      "counts": {
+        "humming_W4A8": 1600,
+        "grouped_finalize": 860,
+        "compact": 80,
+        "headrow": 1600
+      },
+      "BF16_add_before": 960,
+      "BF16_add_after": 160,
+      "removed_shared_adds": 800,
+      "target_layers_observed": 40,
+      "actual_scale": 1.0
+    },
+    {
+      "rank": 3,
+      "counts": {
+        "humming_W4A8": 1600,
+        "grouped_finalize": 860,
+        "compact": 80,
+        "headrow": 1600
+      },
+      "BF16_add_before": 960,
+      "BF16_add_after": 160,
+      "removed_shared_adds": 800,
+      "target_layers_observed": 40,
+      "actual_scale": 1.0
+    },
+    {
+      "rank": 4,
+      "counts": {
+        "humming_W4A8": 1600,
+        "grouped_finalize": 860,
+        "compact": 80,
+        "headrow": 1600
+      },
+      "BF16_add_before": 960,
+      "BF16_add_after": 160,
+      "removed_shared_adds": 800,
+      "target_layers_observed": 40,
+      "actual_scale": 1.0
+    },
+    {
+      "rank": 5,
+      "counts": {
+        "humming_W4A8": 1600,
+        "grouped_finalize": 860,
+        "compact": 80,
+        "headrow": 1600
+      },
+      "BF16_add_before": 960,
+      "BF16_add_after": 160,
+      "removed_shared_adds": 800,
+      "target_layers_observed": 40,
+      "actual_scale": 1.0
+    },
+    {
+      "rank": 6,
+      "counts": {
+        "humming_W4A8": 1600,
+        "grouped_finalize": 860,
+        "compact": 80,
+        "headrow": 1600
+      },
+      "BF16_add_before": 960,
+      "BF16_add_after": 160,
+      "removed_shared_adds": 800,
+      "target_layers_observed": 40,
+      "actual_scale": 1.0
+    },
+    {
+      "rank": 7,
+      "counts": {
+        "humming_W4A8": 1600,
+        "grouped_finalize": 860,
+        "compact": 80,
+        "headrow": 1600
+      },
+      "BF16_add_before": 960,
+      "BF16_add_after": 160,
+      "removed_shared_adds": 800,
+      "target_layers_observed": 40,
+      "actual_scale": 1.0
+    }
+  ]
+}

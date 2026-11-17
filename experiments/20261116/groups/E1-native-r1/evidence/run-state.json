@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "pids": {},
+  "time_unix": 1794819247.0920594,
+  "error": "TimeoutExpired(['nvidia-smi', '--query-compute-apps=pid', '--format=csv,noheader'], 10)"
+}

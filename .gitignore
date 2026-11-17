@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv*/
+*.so
+*.zip
+*.safetensors
+.DS_Store

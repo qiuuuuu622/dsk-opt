@@ -1,0 +1,9 @@
+{
+  "purpose": "repeat native quality baseline to calibrate output nondeterminism",
+  "temperature": 0,
+  "seed": 1234,
+  "cache": "fresh worker; no cache salt because probe shows ignored",
+  "first_requests": 150,
+  "qps": 0.45,
+  "state": "prepared_not_started"
+}

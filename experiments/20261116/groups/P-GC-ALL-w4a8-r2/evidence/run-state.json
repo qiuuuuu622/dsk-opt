@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "reason": "Isolated Dynamo Rust frontend rejects dataset assistant content with HTTP400; preserve original data and use baseline frontend environment in r3",
+  "finished": 127,
+  "success": 37,
+  "pids": {
+    "frontend": 437681,
+    "worker": 437682,
+    "replay_launcher": 437683
+  }
+}

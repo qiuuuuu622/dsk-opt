@@ -1,0 +1,6 @@
+{
+  "frontend": "Exact E0 baseline frontend Python/runtime",
+  "worker": "E1 GC Torch2.11 Triton3.7.1 unchanged",
+  "reason": "E1 wheel Rust HTTP schema rejects some original assistant content; no dataset rewrite",
+  "previous_run": "P-GC-ALL-w4a8-r2"
+}

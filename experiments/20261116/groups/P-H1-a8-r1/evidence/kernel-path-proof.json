@@ -1,0 +1,54 @@
+{
+  "verified": true,
+  "scope": "post-timing three diagnostic requests, not full replay hit rate",
+  "ranks": [
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-H1-a8-r1/traces/P-H1-a8-r1-kernel-proof_dp0_pp0_tp5_dcp0_ep5_rank5.1794811583164033675.pt.trace.json.gz",
+      "w4a8_kernel_variants": 2,
+      "w4a8_launches": 1600,
+      "duration_us": 35957.725999999995
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-H1-a8-r1/traces/P-H1-a8-r1-kernel-proof_dp0_pp0_tp4_dcp0_ep4_rank4.1794811583169750120.pt.trace.json.gz",
+      "w4a8_kernel_variants": 2,
+      "w4a8_launches": 1600,
+      "duration_us": 36997.874000000025
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-H1-a8-r1/traces/P-H1-a8-r1-kernel-proof_dp0_pp0_tp1_dcp0_ep1_rank1.1794811583179067104.pt.trace.json.gz",
+      "w4a8_kernel_variants": 2,
+      "w4a8_launches": 1600,
+      "duration_us": 32705.22399999996
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-H1-a8-r1/traces/P-H1-a8-r1-kernel-proof_dp0_pp0_tp3_dcp0_ep3_rank3.1794811583180944229.pt.trace.json.gz",
+      "w4a8_kernel_variants": 2,
+      "w4a8_launches": 1600,
+      "duration_us": 37130.96300000002
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-H1-a8-r1/traces/P-H1-a8-r1-kernel-proof_dp0_pp0_tp6_dcp0_ep6_rank6.1794811583162881364.pt.trace.json.gz",
+      "w4a8_kernel_variants": 2,
+      "w4a8_launches": 1600,
+      "duration_us": 35805.705
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-H1-a8-r1/traces/P-H1-a8-r1-kernel-proof_dp0_pp0_tp2_dcp0_ep2_rank2.1794811583201868989.pt.trace.json.gz",
+      "w4a8_kernel_variants": 2,
+      "w4a8_launches": 1600,
+      "duration_us": 34245.27099999999
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-H1-a8-r1/traces/P-H1-a8-r1-kernel-proof_dp0_pp0_tp0_dcp0_ep0_rank0.1794811583214818571.pt.trace.json.gz",
+      "w4a8_kernel_variants": 2,
+      "w4a8_launches": 1600,
+      "duration_us": 35644.38200000001
+    },
+    {
+      "file": "/root/dsk_opt_goal_20261116/groups/P-H1-a8-r1/traces/P-H1-a8-r1-kernel-proof_dp0_pp0_tp7_dcp0_ep7_rank7.1794811583230220499.pt.trace.json.gz",
+      "w4a8_kernel_variants": 2,
+      "w4a8_launches": 1600,
+      "duration_us": 36485.515
+    }
+  ]
+}

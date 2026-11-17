@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rank_cases": 120,
+  "changed_graph_steps": 2400,
+  "max_nrmse": 0.0017030301969498396,
+  "oracle_cross_checks": 8,
+  "scope": "adapter full chain with metadata sharding and output copy; no full-model quality claim"
+}

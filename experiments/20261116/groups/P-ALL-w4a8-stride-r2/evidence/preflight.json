@@ -1,0 +1,17 @@
+{
+  "purpose": "kernel-branch readiness; excluded from150 timing; synthetic non-dataset prompt",
+  "usage": {
+    "prompt_tokens": 2119,
+    "completion_tokens": 32,
+    "total_tokens": 2151,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "finish_reasons": [
+    "length"
+  ]
+}

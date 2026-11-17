@@ -1,0 +1,38 @@
+{
+  "versions": {
+    "vllm": "0.32.0",
+    "torch": "2.13.0+cu130",
+    "triton": "3.7.1",
+    "humming-kernels": "0.1.17"
+  },
+  "worker_env": {
+    "DSK_HUMMING_A8": "1",
+    "DSK_HUMMING_FINALIZE": "1",
+    "DSK_COMPACT_INDEXER": "1",
+    "DSK_HEADROW": "1",
+    "PYTHONPATH": "/root/dsk_opt_goal_20261116/src:/root/dsk_opt_goal_20261116/src/indexer:/root/dsk_opt_goal_20261116/src/headrow",
+    "DYN_NAMESPACE": "dsk-p-all-w4a8-stride-r2",
+    "DYN_SYSTEM_PORT": "8081"
+  },
+  "kv_cache_tokens": 18881293,
+  "source_hashes_match_r1": true,
+  "compact_branch_ranks": 8,
+  "runtime_kernel_proof": "same source/config as r1; no repeated profiler sampling this run",
+  "preflight": {
+    "purpose": "kernel-branch readiness; excluded from150 timing; synthetic non-dataset prompt",
+    "usage": {
+      "prompt_tokens": 2119,
+      "completion_tokens": 32,
+      "total_tokens": 2151,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "finish_reasons": [
+      "length"
+    ]
+  }
+}

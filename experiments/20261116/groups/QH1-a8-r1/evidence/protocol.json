@@ -1,0 +1,11 @@
+{
+  "state": "prepared_not_started",
+  "optimization": "target 384-expert Humming activation FP8 only; no finalizer patch; draft remains native",
+  "quality": {
+    "first_requests": 150,
+    "qps": 0.45,
+    "temperature": 0,
+    "seed": 1234
+  },
+  "required_audit": "8rank target W13/W2 FP8 input; draft BF16 input; no implicit fallback"
+}

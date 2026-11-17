@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "reason": "GC native child CUDA graph instantiate OOM during formal replay; 53 completed at detection; no valid full-run comparison",
+  "pids": {
+    "frontend": 447578,
+    "worker": 447579,
+    "replay_launcher": 447580
+  }
+}

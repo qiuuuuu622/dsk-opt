@@ -1,0 +1,6 @@
+{
+  "status": "superseded by runtime-frozen-plan.json",
+  "correction": "Effective E0 PyJWT2.15.1, not lower-priority system2.7; no JWT change needed",
+  "actual_known_metadata_mismatch": "Dynamo-runtime1.5.0 bounds pydantic<=2.13 while effective E0 uses2.14.1",
+  "installation": "Not yet performed"
+}
